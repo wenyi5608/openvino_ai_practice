@@ -14,7 +14,6 @@
 #include "processthreadsapi.h"
 #include <openvino/openvino.hpp>
 
-
 #ifdef WIN32
 // To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
 // and compile with -DPSAPI_VERSION=1
@@ -80,8 +79,6 @@ int main(int argc, char* argv[]) try {
     std::cout << "test mode:" << (int)test_mode << std::endl;
 
     std::string device = "GPU";  // CPU can be used as well
-
-    
 
     using namespace ov::genai;
     std::cout << ov::get_openvino_version() << std::endl;
@@ -156,12 +153,15 @@ int main(int argc, char* argv[]) try {
                                   metrics.get_tpot().mean);
     }
 
-    std::cout << "input id, input token len, out token len, first token time, average time" << std::endl;
-    size_t index = 0;
-    for (auto i : perf_records) {
-        std::cout << index << ", " << std::get<0>(i) << ", " << std::get<1>(i) << ", " << std::get<2>(i) << ", "
+    if (test_mode == TestMode::no_lora_performance || test_mode == TestMode::empty_lora_performance ||
+        test_mode == TestMode::infer_with_lora_performance){
+        std::cout << "input id, input token len, out token len, first token time, average time" << std::endl;
+        size_t index = 0;
+        for (auto i : perf_records) {
+             std::cout << index << ", " << std::get<0>(i) << ", " << std::get<1>(i) << ", " << std::get<2>(i) << ", "
                   << std::get<3>(i) << std::endl;
-        index++;
+             index++;
+       }
     }
 
     perf_records.clear();
