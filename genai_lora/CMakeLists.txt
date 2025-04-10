@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(qwen-lora)
+project(llm-lora)
 
 # Set C++ Standard
 set(CMAKE_CXX_STANDARD 20)
@@ -44,10 +44,10 @@ configure_file(
 set(HEADER_FILES utils.h)
 set(SOURCE_FILES main.cpp)
 
-add_executable(qwen-lora ${SOURCE_FILES} ${HEADER_FILES})
+add_executable(llm-lora ${SOURCE_FILES} ${HEADER_FILES})
 
-target_link_libraries(qwen-lora
+target_link_libraries(llm-lora
     PRIVATE openvino::genai
 )
 
-target_include_directories( qwen-lora PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+target_include_directories( llm-lora PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
