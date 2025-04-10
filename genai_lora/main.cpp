@@ -109,7 +109,7 @@ int main(int argc, char* argv[]) try {
     // only used in memory test , test the memory usage after the first inference
     auto streamer = [](std::string subword) {
 #ifdef WIN32
-        DebugMemoryInfo("First Token Memory:");
+        DebugMemoryInfo("First token");
 #endif
         return ov::genai::StreamingStatus::STOP;
     };
