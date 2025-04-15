@@ -7,7 +7,7 @@ Windows
 
 Download and Install VS2022, Cmake:
 
-VS2022: Install latest Visual Studio 2022 Community(https://visualstudio.microsoft.com/zh-hans/downloads/) and Install C and C++ support in Visual Studio.
+VS2022: Install latest [Visual Studio 2022 Community](https://visualstudio.microsoft.com/zh-hans/downloads/) and Install C and C++ support in Visual Studio.
 Cmake: If Cmake not installed in the terminal Command Prompt, please download and install Cmake or use the terminal Developer Command Prompt for VS 2022 instead.
 
 openvino_genai can be download from https://storage.openvinotoolkit.org/repositories/openvino_genai/packages
