@@ -4,6 +4,7 @@ This is an example that shows the performance and memory testing of a OpenVINO.G
 
 ## Build and Run
 Windows
+
 Download and Install VS2022, Cmake:
 
 VS2022: Install latest Visual Studio 2022 Community and Install C and C++ support in Visual Studio.
