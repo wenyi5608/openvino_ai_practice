@@ -48,7 +48,7 @@ TestMode parse_args(const std::string& mode) {
     if (mode == "no_lora_performance") {
         return TestMode::no_lora_performance;
     } else if (mode == "no_lora_memory") {
-        return TestMode::empty_lora_memory;
+        return TestMode::no_lora_memory;
     } else if (mode == "empty_lora_performance") {
         return TestMode::empty_lora_performance;
     } else if (mode == "empty_lora_memory") {
@@ -125,7 +125,7 @@ int main(int argc, char* argv[]) try {
     }
     if (test_mode == TestMode::empty_lora_memory || test_mode == TestMode::empty_lora_performance) {
         config.adapters = ov::genai::AdapterConfig{};
-    } else {
+    } else if (test_mode == TestMode::infer_with_lora_memory || test_mode == TestMode::infer_with_lora_performance){
         config.adapters = ov::genai::AdapterConfig{adapter, 0.25};
     }
 
