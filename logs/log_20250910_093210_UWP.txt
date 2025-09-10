@@ -1,0 +1,81 @@
+2025-09-10 09:32:10.823 [Info] [2]: [MvaLib2] : Recognize.SetupMvaKeywordAsync end
+2025-09-10 09:32:10.823 [Info] [2]: [MvaLib2] : Recognize.Init end
+2025-09-10 09:32:10.823 [Info] [2]: [MvaLib2] : Recognizer.RequestAgentStateChangeAsync, Enter: Inactive
+2025-09-10 09:32:10.823 [Info] [2]: [MvaLib2] : GetSessionAsync start
+2025-09-10 09:32:10.823 [Info] [2]: [MvaLib2] : GetSessionAsync wait end
+2025-09-10 09:32:10.833 [Info] [6]: [MvaLib2] : Cache agent session ok:Inactive
+2025-09-10 09:32:10.833 [Info] [6]: [MvaLib2] : cachedAgentSession:Inactive
+2025-09-10 09:32:10.833 [Info] [6]: [MvaLib2] : GetSessionAsync end
+2025-09-10 09:32:10.833 [Info] [6]: [MvaLib2] : RequestAgentStateChangeAsync: session.AgentState:Inactive, state:Inactive.
+2025-09-10 09:32:10.833 [Info] [6]: [MvaLib2] : Recognizer.RequestAgentStateChangeAsync, Exit: Inactive
+2025-09-10 09:32:10.833 [Info] [2]: [MvaLib2] : Is using LocalKeywordRecognizer2
+2025-09-10 09:32:10.833 [Info] [2]: [MvaLib2] : ChangeDialogBackend False
+2025-09-10 09:32:10.833 [Info] [2]: [MvaLib2] : SetMsSpeechConfig, fail: Cannot get SubscriptionKey in debug file.
+2025-09-10 09:32:10.833 [Info] [2]: MVAWakeUpService set callback
+2025-09-10 09:32:10.833 [Info] [2]: MVAWakeUpService init end
+2025-09-10 09:32:10.841 [Info] [2]: OnBackgroundActivated
+2025-09-10 09:32:10.855 [Info] [2]: ReOpenAppService
+2025-09-10 09:32:10.856 [Info] [2]: HandleBackgroundTask
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection AppServiceConnectedEvent reset begin.
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection Connection dispose begin.
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection Connection = null begin.
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection m_appServiceDeferral complete begin.
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection m_appServiceDeferral = null begin.
+2025-09-10 09:32:10.856 [Info] [2]: AppServiceManager DisposeConnection begin.
+2025-09-10 09:32:10.856 [Info] [2]: appServiceEnable changed:True
+2025-09-10 09:32:10.856 [Info] [2]: AppService.
+2025-09-10 09:32:10.856 [Info] [2]: [MvaLib2] : GetSessionAsync start
+2025-09-10 09:32:10.856 [Info] [2]: [MvaLib2] : GetSessionAsync wait end
+2025-09-10 09:32:10.856 [Info] [2]: [MvaLib2] : cachedAgentSession != null
+2025-09-10 09:32:10.856 [Info] [2]: [MvaLib2] : cachedAgentSession:Inactive
+2025-09-10 09:32:10.856 [Info] [2]: [MvaLib2] : GetSessionAsync end
+2025-09-10 09:32:10.856 [Info] [2]: App serivce connected
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager SendMessage begin. appServiceEnable:True
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager enter messagesNeedSendLock
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager exit messagesNeedSendLock
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager SendMessage request: MSGID  :  1	IsLocked  :  False	Request  :  IsLockedChanged	
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager SendMessage request: MSGID  :  1	IsLocked  :  False	Request  :  IsLockedChanged	 enter lock
+2025-09-10 09:32:10.856 [Debug] [8]: AppServiceManager StopSendTimer _sendTimer is null
+2025-09-10 09:32:10.856 [Debug] [8]: AppServiceManager Start send timer
+2025-09-10 09:32:10.856 [Info] [8]: AppServiceManager SendMessage request: IsLockedChanged 1 send begin
+2025-09-10 09:32:10.863 [Info] [10]: App serivce UWPReady OK, Success
+2025-09-10 09:32:10.863 [Info] [8]: AppServiceManager SendMessage request: IsLockedChanged 1 send end
+2025-09-10 09:32:10.863 [Info] [7]: AppServiceManager SendMessage request: IsLockedChanged 1 send await end
+2025-09-10 09:32:10.863 [Debug] [7]: AppServiceManager StopSendTimer
+2025-09-10 09:32:10.865 [Info] [11]: AppServiceManager request receive: MVAInit 1
+2025-09-10 09:32:10.865 [Info] [11]: MVAWakeUpService init start
+2025-09-10 09:32:10.865 [Info] [11]: MVAWakeUpService init end ignore
+2025-09-10 09:32:10.865 [Info] [11]: AppServiceManager request receive: MVAInit 1 end
+2025-09-10 09:32:10.868 [Info] [11]: AppServiceManager request receive: LidOpen 2
+2025-09-10 09:32:10.868 [Info] [11]: LidOpen True
+2025-09-10 09:32:10.868 [Info] [11]: AppServiceManager request receive: LidOpen 2 end
+2025-09-10 09:32:10.868 [Info] [8]: AppServiceManager request receive: AudioRecordStop 3
+2025-09-10 09:32:10.940 [Info] [2]: ReOpenAppService end.
+2025-09-10 09:32:11.045 [Info] [8]: AppServiceManager request receive: MvaStageChange 4
+2025-09-10 09:32:11.045 [Info] [8]: AppServiceManager request receive: MvaStageChange 4 end
+2025-09-10 09:32:11.045 [Debug] [11]: SetEnableStageKws-> firstStage:False,secondStage:False
+2025-09-10 09:32:11.045 [Info] [11]: [MvaLib2] : EnableFirstStageKws
+2025-09-10 09:32:11.045 [Info] [11]: [MvaLib2] : EnableFirstStageKws False
+2025-09-10 09:32:11.045 [Info] [11]: [MvaLib2] : EnableFirstStageKws name:Xiaowei Xiaowei
+2025-09-10 09:32:11.049 [Info] [11]: [MvaLib2] : EnableFirstStageKws end
+2025-09-10 09:32:11.049 [Info] [11]: [MvaLib2] : Is using LocalKeywordRecognizer2
+2025-09-10 09:32:11.049 [Info] [11]: [MvaLib2] : ChangeDialogBackend False
+2025-09-10 09:32:11.049 [Info] [11]: [MvaLib2] : SetMsSpeechConfig, fail: Cannot get SubscriptionKey in debug file.
+2025-09-10 09:32:11.051 [Info] [11]: [MvaLib2] : KeywordConfiguration.AvailabilityChanged, HasLockScreenPermission:False,  HasPermission:True IsEnabled:False HasSystemResourceAccess:True
+2025-09-10 09:32:11.051 [Info] [11]: [MvaLib2] : KeywordConfiguration.AvailabilityInfo.HasPermission:True
+2025-09-10 09:32:11.051 [Info] [11]: MVAWakeUpService,Init()...AvailabilityChanged... Recognizer.HasPermission：True，LocalSettings.WakeWordEnabled：False isFirstInit：True, LocalSettings.IsEnableWakeWordSwitch: True
+2025-09-10 09:32:11.051 [Info] [11]: [MvaLib2] : KeywordConfiguration.AvailabilityInfo.HasPermission:True
+2025-09-10 09:32:11.051 [Info] [11]: [MvaLib2] : KeywordConfiguration.AvailabilityInfo.HasPermission:True
+2025-09-10 09:32:11.052 [Info] [11]: AppServiceManager SendMessage begin. appServiceEnable:True
+2025-09-10 09:32:11.052 [Info] [11]: AppServiceManager enter messagesNeedSendLock
+2025-09-10 09:32:11.052 [Info] [11]: AppServiceManager exit messagesNeedSendLock
+2025-09-10 09:32:11.052 [Info] [11]: AppServiceManager SendMessage request: MSGID  :  2	WakeWordSwitch  :  False	Request  :  MvaPermissionChanged	HasPermission  :  True	
+2025-09-10 09:32:11.052 [Info] [11]: AppServiceManager SendMessage request: MSGID  :  2	WakeWordSwitch  :  False	Request  :  MvaPermissionChanged	HasPermission  :  True	 enter lock
+2025-09-10 09:32:11.052 [Info] [11]: MVAWakeUpService init end
+2025-09-10 09:32:11.052 [Debug] [13]: AppServiceManager StopSendTimer _sendTimer is null
+2025-09-10 09:32:11.052 [Debug] [13]: AppServiceManager Start send timer
+2025-09-10 09:32:11.052 [Info] [13]: AppServiceManager SendMessage request: MvaPermissionChanged 2 send begin
+2025-09-10 09:32:11.078 [Info] [13]: AppServiceManager SendMessage request: MvaPermissionChanged 2 send end
+2025-09-10 09:32:11.078 [Info] [7]: AppServiceManager SendMessage request: MvaPermissionChanged 2 send await end
+2025-09-10 09:32:11.078 [Debug] [7]: AppServiceManager StopSendTimer
+2025-09-10 09:32:20.862 [Info] [13]: ConnTimer_Elapsed: WPF has been launched!
