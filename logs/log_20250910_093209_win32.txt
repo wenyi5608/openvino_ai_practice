@@ -1,0 +1,738 @@
+2025-09-10 09:32:09.923 [Debug] [6]: [GlobalTTsPlayer] [GlobalTTsPlayer]: IsAutoPlayTtsVoice=True, TtsVoiceId=-1.
+2025-09-10 09:32:09.930 [Debug] [7]: [SensitiveWordTracker] [Constructor]: start.
+2025-09-10 09:32:09.930 [Info] [15]: <TransformEngine> vcEngine build
+2025-09-10 09:32:10.524 [Debug] [1]: [MainWebviewWindow] [WebView_Loaded]: Start.
+2025-09-10 09:32:10.526 [Info] [15]: <TransformEngine> OnActionResult:INITIALIZE SUCCESS 
+2025-09-10 09:32:10.526 [Info] [15]: <TransformEngine> Engin compleate loaded
+2025-09-10 09:32:10.527 [Info] [15]: <TransformEngine> vcEngine inited 16000
+2025-09-10 09:32:10.529 [Debug] [1]: [MainWebviewWindow] [InitializeWebViewArgs]: Start. userDataFolder=C:\Users\53422\AppData\Local\Packages\AD2F1837.19285F10D180_v10z8vjag6ke6\LocalState\XiaoweiWebview, useName=test.
+2025-09-10 09:32:10.529 [Debug] [1]: [MainWebviewWindow] [InitializeWebViewArgs]: Processing. args=--enable-features="msWebView2EnableDraggableRegions".
+2025-09-10 09:32:10.532 [Debug] [7]: [SensitiveWordTracker] [Constructor]: done.
+2025-09-10 09:32:10.533 [Debug] [7]: create IXiaohuiClient
+2025-09-10 09:32:10.635 [Debug] [7]: [AvailabilityChecker] [UpdateAvailability] IsPipeConnected=False, IsDeviceSupport=False, IsDownShelf=False, IsUserStateOK=False, IsSensitiveUser=False, IsServiceExist=False, IsServiceRunning=False, IsSuccessStatusCode=False.
+2025-09-10 09:32:10.636 [Debug] [15]: AIXiaohui Initialize, AIXiaohui ClientPipe IsConnected:False
+2025-09-10 09:32:10.636 [Debug] [15]: [Pipe]StartListen start
+2025-09-10 09:32:10.636 [Debug] [15]: [Pipe]StartListen end
+2025-09-10 09:32:10.636 [Error] [13]: XiaoHuiVoiceToText AsrService_ASRErrorStatusChanged: e:AudioSourceError
+2025-09-10 09:32:10.636 [Debug] [12]: [Pipe]Pipe start to connect:True False
+2025-09-10 09:32:10.638 [Debug] [12]: [Pipe]pipe_IsConnectedChanged:True
+2025-09-10 09:32:10.638 [Debug] [12]: AIXiaohui,XiaohuiClient_ModelCompileStateChanged isModelCompiling:False
+2025-09-10 09:32:10.640 [Debug] [13]: GetUserId, token is null or empty
+2025-09-10 09:32:10.640 [Debug] [12]: XiaohuiClient_OnConnectedChanged,PipeConnection:True, ModelStatus:Unloaded, DownloadStatus:Downloaded
+2025-09-10 09:32:10.640 [Debug] [12]: [AvailabilityChecker] [UpdateAvailability] IsPipeConnected=True, IsDeviceSupport=False, IsDownShelf=False, IsUserStateOK=False, IsSensitiveUser=False, IsServiceExist=False, IsServiceRunning=False, IsSuccessStatusCode=False.
+2025-09-10 09:32:10.641 [Debug] [12]: [Pipe]Pipe conn OK
+2025-09-10 09:32:10.644 [Info] [13]: Connection.Open
+2025-09-10 09:32:10.644 [Info] [13]: Connection.DisposeConnection
+2025-09-10 09:32:10.644 [Info] [13]: Connection.DisposeConnection end
+2025-09-10 09:32:10.648 [Info] [13]: Connection.Init, Open connection
+2025-09-10 09:32:10.648 [Debug] [6]: [Pipe]PipeVersionSelector_MessageReceived, type is:SensitiveDetectResult,isNewVersion:False, content:{"download_progress":{"all_size":0,"already_download_size":0,"force_update":false,"is_finished":true},"model_exist":false,"type":5}
+2025-09-10 09:32:10.648 [Debug] [6]: [Pipe]OldPipe_MessageReceived:type is UpdateModelFileState,content is {"download_progress":{"all_size":0,"already_download_size":0,"force_update":false,"is_finished":true},"model_exist":false,"type":5}
+2025-09-10 09:32:10.658 [Debug] [6]: [Pipe]Pipe_MessageReceived UpdateModelFileState, IsActive：False，modelExist：False，ForceUpdate：，State:ModelUnloaded
+2025-09-10 09:32:10.658 [Debug] [6]: AIXiaohui XiaohuiClient_OnModelExistChanged, IsModelExists:False
+2025-09-10 09:32:10.658 [Debug] [6]: ModelStatusChanged,_modelStatus：Unloaded, newValue:NotExist
+2025-09-10 09:32:10.658 [Debug] [6]: DownloadStatusChanged,_modelStatus：Downloaded, newValue:NotDownloaded
+2025-09-10 09:32:10.658 [Debug] [6]: [Pipe]Pipe_MessageReceived unload model, IsActive:False, isForceUpdate:
+2025-09-10 09:32:10.659 [Debug] [6]: AIXiaohui,XiaohuiClient_ModelCompileStateChanged isModelCompiling:False
+2025-09-10 09:32:10.660 [Info] [6]: CreateSendMessageTask _appServiceConnectedEvent  wait event start
+2025-09-10 09:32:10.674 [Info] [13]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	
+2025-09-10 09:32:10.674 [Info] [13]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 enter lock
+2025-09-10 09:32:10.674 [Info] [13]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 push into the queue
+2025-09-10 09:32:10.719 [Debug] [1]: [WebView2Window] [Initialize]: Start.
+2025-09-10 09:32:10.720 [Debug] [1]: [WebView2Window] [Initialize]: Processing. WebView2 webViewRuntimeVersion=140.0.3485.54, webViewRuntimeMinimumVersion=109.0.1518.78.
+2025-09-10 09:32:10.720 [Debug] [1]: [WebView2Window] [Initialize]: Done.
+2025-09-10 09:32:10.721 [Debug] [1]: [WebView2Window] [Initialize]: Start.
+2025-09-10 09:32:10.721 [Debug] [1]: [WebView2Window] [Initialize]: Processing. WebView2 webViewRuntimeVersion=140.0.3485.54, webViewRuntimeMinimumVersion=109.0.1518.78.
+2025-09-10 09:32:10.721 [Debug] [1]: [WebView2Window] [Initialize]: Done.
+2025-09-10 09:32:10.723 [Debug] [1]: [GHostWindow] <Constructor>: Window initialized and events bound.
+2025-09-10 09:32:10.723 [Debug] [1]: [GHostWindow] <Constructor>: Window initialized and events bound.
+2025-09-10 09:32:10.741 [Debug] [1]: [GHostWindow] <Loaded>: MouseHook started and window set to WS_EX_TRANSPARENT.
+2025-09-10 09:32:10.757 [Debug] [1]: ChatServiceHandler InitializeAIProcessor start
+2025-09-10 09:32:10.768 [Info] [12]: ProcessManager: Force cleanup of all SystemOptimizeServer processes...
+2025-09-10 09:32:10.769 [Info] [1]: SystemOptimizeServerManager: State changed to Stopped
+2025-09-10 09:32:10.769 [Info] [1]: SystemOptimizeServerManager initialized.
+2025-09-10 09:32:10.770 [Info] [1]: DiskUsageMonitor: Started monitoring disk usage.
+2025-09-10 09:32:10.774 [Info] [12]: ProcessManager: No SystemOptimizeServer processes found to cleanup.
+2025-09-10 09:32:10.774 [Debug] [1]: ChatServiceHandler InitializeAIProcessor end
+2025-09-10 09:32:10.775 [Info] [1]: ChatServiceHandler Initialize
+2025-09-10 09:32:10.792 [Info] [1]: GUID_MONITOR_POWER_ON, 1
+2025-09-10 09:32:10.792 [Info] [1]: GUID_LIDSWITCH_STATE_CHANGE False
+2025-09-10 09:32:10.792 [Info] [1]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	
+2025-09-10 09:32:10.792 [Info] [1]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 enter lock
+2025-09-10 09:32:10.792 [Info] [1]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 push into the queue
+2025-09-10 09:32:10.821 [Debug] [1]: [MainWebviewWindow] [WebView_CoreWebView2InitializationCompleted]: Start.
+2025-09-10 09:32:10.821 [Info] [1]: [MainWebviewWindow] [ConfigureWebViewSettings]: Start.
+2025-09-10 09:32:10.825 [Info] [1]: [MainWebviewWindow] [ConfigureWebViewSettings]: Done.
+2025-09-10 09:32:10.825 [Debug] [1]: [MainWebviewWindow] [RegisterWebResourceRequestedHandler]: Start.
+2025-09-10 09:32:10.826 [Debug] [1]: [MainWebviewWindow] [RegisterWebResourceRequestedHandler]: Done.
+2025-09-10 09:32:10.826 [Debug] [1]: [MainWebviewWindow] [WebView_CoreWebView2InitializationCompleted]: Done.
+2025-09-10 09:32:10.827 [Debug] [1]: [MainWebviewWindow] [InitializeWebViewArgs]: Processing. EnsureCoreWebView2Async finish.
+2025-09-10 09:32:10.828 [Debug] [1]: [MainWebviewWindow] [InitializeWebViewArgs]: Done. Source=https://xiaowei/corePanel/index.html
+2025-09-10 09:32:10.829 [Debug] [1]: [MainWebviewWindow] [WebView_Loaded]: Processing. InitializeWebViewArgs finish.
+2025-09-10 09:32:10.829 [Debug] [1]: [MainWebviewWindow] [WebView_Loaded]: Done.
+2025-09-10 09:32:10.841 [Info] [22]: Connection.Init, ok!
+2025-09-10 09:32:10.841 [Info] [12]: AppServiceManager_ConnectionReopened
+2025-09-10 09:32:10.842 [Debug] [1]: [MainWebviewWindow] [WebView_NavigationStarting]: Received. NavigationId=2, Uri=https://xiaowei/corePanel/index.html.
+2025-09-10 09:32:10.847 [Info] [12]: SetLoadingState,state:Loading, CurrentLoadingState:Loading, _sdkInitialized:False, _appServiceConnected:True, CurrentDeviceAppSupportErrorType:NoError
+2025-09-10 09:32:10.847 [Info] [12]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	
+2025-09-10 09:32:10.847 [Info] [12]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 enter lock
+2025-09-10 09:32:10.847 [Info] [12]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 push into the queue
+2025-09-10 09:32:10.861 [Info] [30]: AppServiceManager request receive: Request  :  UWPReady	
+2025-09-10 09:32:10.861 [Info] [30]: AppServiceManager ready
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask  _appServiceConnectedEvent wait event end
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event start
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event end
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask Try peek
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask Try peek start
+2025-09-10 09:32:10.861 [Info] [6]: CreateSendMessageTask Try peek end
+2025-09-10 09:32:10.862 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 GetTaskAwaiter
+2025-09-10 09:32:10.862 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 wait for action of send
+2025-09-10 09:32:10.862 [Info] [31]: AppServiceManager request receive: IsLocked  :  False	MSGID  :  1	Request  :  IsLockedChanged	
+2025-09-10 09:32:10.863 [Debug] [12]: Start send timer
+2025-09-10 09:32:10.863 [Info] [12]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 send begin
+2025-09-10 09:32:10.866 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	 send action ok, wait for return
+2025-09-10 09:32:10.867 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  1	Request  :  MVAInit	, Success send await end
+2025-09-10 09:32:10.868 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent enter
+2025-09-10 09:32:10.868 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent end
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask _appServiceConnectedEvent  wait event start
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask  _appServiceConnectedEvent wait event end
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event start
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event end
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask Try peek
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask Try peek start
+2025-09-10 09:32:10.868 [Info] [6]: CreateSendMessageTask Try peek end
+2025-09-10 09:32:10.868 [Info] [6]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 GetTaskAwaiter
+2025-09-10 09:32:10.868 [Info] [6]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 wait for action of send
+2025-09-10 09:32:10.868 [Debug] [12]: Start send timer
+2025-09-10 09:32:10.868 [Info] [12]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 send begin
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	 send action ok, wait for return
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: IsOn  :  True	MSGID  :  2	Request  :  LidOpen	, Success send await end
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent enter
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent end
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask _appServiceConnectedEvent  wait event start
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask  _appServiceConnectedEvent wait event end
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event start
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event end
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask Try peek
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask Try peek start
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask Try peek end
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 GetTaskAwaiter
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 wait for action of send
+2025-09-10 09:32:10.869 [Debug] [12]: Start send timer
+2025-09-10 09:32:10.869 [Info] [12]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 send begin
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	 send action ok, wait for return
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage request: MSGID  :  3	Request  :  AudioRecordStop	, Success send await end
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent enter
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage: HasMessageEvent.Reset()
+2025-09-10 09:32:10.869 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent end
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask _appServiceConnectedEvent  wait event start
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask  _appServiceConnectedEvent wait event end
+2025-09-10 09:32:10.869 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event start
+2025-09-10 09:32:10.945 [Info] [13]: FetchSerialNumber:ProductNumber:4810UU010005
+2025-09-10 09:32:10.947 [Info] [13]: RegisterDeviceAsync. SSID:8CB9 SN:ABC4020076
+2025-09-10 09:32:10.950 [Debug] [13]: ServerApi - InitAsync, sn:DEBUGLAPTOP-20VINNMH\test\ABC4020076, ssid:8CB9
+2025-09-10 09:32:10.979 [Info] [13]: GetAppTask() start
+2025-09-10 09:32:11.013 [Debug] [32]: GetUserId, token is null or empty
+2025-09-10 09:32:11.016 [Debug] [12]: GetUserId, token is null or empty
+2025-09-10 09:32:11.023 [Error] [13]: XiaoHuiVoiceToText AsrService_ASRErrorStatusChanged: e:NoError
+2025-09-10 09:32:11.023 [Info] [13]: Microphone.Init, IsAvailable=True
+2025-09-10 09:32:11.023 [Debug] [13]: GetUserId, token is null or empty
+2025-09-10 09:32:11.024 [Debug] [13]: GetUserId, token is null or empty
+2025-09-10 09:32:11.024 [Debug] [13]: RegisterHotkeyAsync, id:1001, Modifiers:16390, key:R
+2025-09-10 09:32:11.026 [Info] [1]: RegisterHotKey, id:1001, Modifiers:16390, Keys:R
+2025-09-10 09:32:11.027 [Info] [1]: RegisterHotKey, id:1001, Modifiers:16390, Keys:R, success!
+2025-09-10 09:32:11.027 [Debug] [13]: RegisterHotkeyAsync, ok:True, id:1001, Modifiers:16390, key:R
+2025-09-10 09:32:11.027 [Debug] [13]: GetUserId, token is null or empty
+2025-09-10 09:32:11.027 [Info] [13]: Register hotkey ok.
+2025-09-10 09:32:11.042 [Debug] [13]: Initializing ContextMenuRegistrarService.
+2025-09-10 09:32:11.042 [Info] [13]: Run app service during init
+2025-09-10 09:32:11.042 [Debug] [13]: ContextMenuRegistrarService initialization started.
+2025-09-10 09:32:11.042 [Debug] [13]: [XWsvrClient]StartListen start
+2025-09-10 09:32:11.042 [Debug] [13]: [XWsvrClient]StartListen end
+2025-09-10 09:32:11.042 [Debug] [13]: ContextMenuRegistrarService initialization completed.
+2025-09-10 09:32:11.042 [Debug] [13]: [XWsvrClient]Pipe start to connect:True False
+2025-09-10 09:32:11.042 [Debug] [31]: AfterSalesServiceHelper,Initialize, QrCodeUrl:https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQGt8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRU9uaUpyRl85aVQxMDAwME0wM2UAAgRwi1lgAwQAAAAA
+2025-09-10 09:32:11.044 [Info] [31]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	
+2025-09-10 09:32:11.044 [Info] [31]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 enter lock
+2025-09-10 09:32:11.044 [Info] [31]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 push into the queue
+2025-09-10 09:32:11.044 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event end
+2025-09-10 09:32:11.044 [Info] [6]: CreateSendMessageTask Try peek
+2025-09-10 09:32:11.044 [Info] [6]: CreateSendMessageTask Try peek start
+2025-09-10 09:32:11.044 [Info] [6]: CreateSendMessageTask Try peek end
+2025-09-10 09:32:11.044 [Info] [6]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 GetTaskAwaiter
+2025-09-10 09:32:11.044 [Info] [6]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 wait for action of send
+2025-09-10 09:32:11.044 [Info] [31]: RegisterDeviceService.Instance.FetchLicenseEnded
+2025-09-10 09:32:11.044 [Debug] [35]: Start send timer
+2025-09-10 09:32:11.044 [Info] [35]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 send begin
+2025-09-10 09:32:11.045 [Info] [31]: XiaoweiAI init
+2025-09-10 09:32:11.045 [Info] [31]: XiaoweiAI init XiaoweiSDK
+2025-09-10 09:32:11.045 [Info] [6]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	 send action ok, wait for return
+2025-09-10 09:32:11.045 [Info] [6]: AppServiceManager SendMessage request: SecondStage  :  False	MSGID  :  4	Request  :  MvaStageChange	FirstStage  :  False	, Success send await end
+2025-09-10 09:32:11.045 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent enter
+2025-09-10 09:32:11.045 [Info] [6]: AppServiceManager SendMessage: HasMessageEvent.Reset()
+2025-09-10 09:32:11.045 [Info] [6]: AppServiceManager SendMessage: check HasMessageEvent end
+2025-09-10 09:32:11.045 [Info] [6]: CreateSendMessageTask _appServiceConnectedEvent  wait event start
+2025-09-10 09:32:11.045 [Info] [6]: CreateSendMessageTask  _appServiceConnectedEvent wait event end
+2025-09-10 09:32:11.045 [Info] [31]: XiaoweiAI_IsInitializedChanged, isInited:False
+2025-09-10 09:32:11.045 [Info] [6]: CreateSendMessageTask _hasMessageEvent  wait event start
+2025-09-10 09:32:11.045 [Info] [31]: SetLoadingState,state:Loading, CurrentLoadingState:Loading, _sdkInitialized:False, _appServiceConnected:True, CurrentDeviceAppSupportErrorType:NoError
+2025-09-10 09:32:11.047 [Info] [37]: [XiaoweiVoiceAI] : XiaoweiSDK.CreateWorkerThread created!
+2025-09-10 09:32:11.047 [Info] [31]: XiaoweiAI init end
+2025-09-10 09:32:11.052 [Info] [30]: AppServiceManager request receive: MSGID  :  2	WakeWordSwitch  :  False	Request  :  MvaPermissionChanged	HasPermission  :  True	
+2025-09-10 09:32:11.059 [Info] [36]: ServerInstaller: Server already installed.
+2025-09-10 09:32:11.068 [Debug] [35]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start _device_init
+2025-09-10 09:32:11.068 [Debug] [35]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: debug dir C:\Users\53422\AppData\Local\Packages\AD2F1837.19285F10D180_v10z8vjag6ke6\LocalState
+2025-09-10 09:32:11.070 [Debug] [35]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: set log default function
+2025-09-10 09:32:11.080 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_net_status_changed
+2025-09-10 09:32:11.080 [Info] [30]: AppServiceManager request receive: MSGID  :  2	WakeWordSwitch  :  False	Request  :  MvaPermissionChanged	HasPermission  :  True	 end
+2025-09-10 09:32:11.080 [Info] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnNetStatusChange:0
+2025-09-10 09:32:11.080 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0
+2025-09-10 09:32:11.080 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, UpdateOnlineStatus False False
+2025-09-10 09:32:11.080 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, Offline
+2025-09-10 09:32:11.080 [Info] [41]: IsOnlineChange AbortRequestAsync
+2025-09-10 09:32:11.081 [Debug] [35]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end _device_init,0
+2025-09-10 09:32:11.081 [Debug] [35]: [XiaoweiVoiceAI] : _device_init, ret:0, sn:fc2c38e794263a14, signature:MEUCICX87A36KqwIN08PrxWNpH87XUhLMdD/xKw+8RGtrv3QAiEA2zsKrgth1FjdpUG1KtvttFwLzguaz6+kZskHgARmS24=, appId:ilinkapp_0600004d58f8a6, pid:2780, keyVersion:1
+2025-09-10 09:32:11.081 [Info] [41]: [XiaoweiVoiceAI] : AbortRequestAsync, _responseEvent:Idle
+2025-09-10 09:32:11.081 [Warn] [41]: AbortRequestAsync-> Abort ignore
+2025-09-10 09:32:11.082 [Warn] [41]: OnlineModeChanged，IsLogin is false
+2025-09-10 09:32:11.082 [Info] [41]: onlineSDK.AvailabilityChanged IsOnlineMode:False True False
+2025-09-10 09:32:11.082 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0 end
+2025-09-10 09:32:11.082 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_net_status_changed
+2025-09-10 09:32:11.089 [Info] [35]: NetworkConnectivityLevel2 is InternetAccess
+2025-09-10 09:32:11.096 [Error] [39]: ReportXimalaya，ximalaya sign parse error，ximalayaSign：RBAC: access denied
+2025-09-10 09:32:11.210 [Debug] [8]: [AppPipeService] [StartPipeServer]: processing. client connected.
+2025-09-10 09:32:11.212 [Debug] [8]: [Application] [AppPipeService_MessageReceived]: start. Parameters: message={"type":0,"data":"/InvokerPRAID:"}.
+2025-09-10 09:32:11.213 [Debug] [8]: [Application] [AppPipeService_MessageReceived]: processing. second-instance emit.
+2025-09-10 09:32:11.217 [Debug] [8]: [Application] [AppPipeService_MessageReceived]: done.
+2025-09-10 09:32:11.217 [Debug] [8]: [Application] [AppPipeService_MessageReceived] [Finally]:  start.
+2025-09-10 09:32:11.218 [Debug] [8]: [Application] [AppPipeService_MessageReceived] [Finally]: processing. dispose pipe server finish.
+2025-09-10 09:32:11.218 [Debug] [8]: [AppPipeService] [Constructor]: start.
+2025-09-10 09:32:11.218 [Debug] [8]: [AppPipeService] [Constructor]: processing, pipeName=Xiaowei_AD2F1837.19285F10D180_v10z8vjag6ke6_test.
+2025-09-10 09:32:11.218 [Debug] [8]: [AppPipeService] [Constructor]: done.
+2025-09-10 09:32:11.218 [Debug] [8]: [Application] [AppPipeService_MessageReceived] [Finally]: done. create pipe server finish.
+2025-09-10 09:32:11.218 [Debug] [8]: [AppPipeService] [StartPipeServer]: done.
+2025-09-10 09:32:11.218 [Debug] [8]: [AppPipeService] [StartPipeServer]: start.
+2025-09-10 09:32:11.698 [Debug] [22]: App:access, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Access.lnk
+2025-09-10 09:32:11.701 [Debug] [22]: App:adobe offers, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe offers.lnk
+2025-09-10 09:32:11.703 [Debug] [22]: App:amazon.com, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Amazon.com.lnk
+2025-09-10 09:32:11.705 [Debug] [22]: App:beyond compare 4, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Beyond Compare 4.lnk
+2025-09-10 09:32:11.707 [Debug] [22]: App:booking.com, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Booking.com.lnk
+2025-09-10 09:32:11.709 [Debug] [22]: App:excel, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel.lnk
+2025-09-10 09:32:11.711 [Debug] [22]: App:google chrome, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+2025-09-10 09:32:11.716 [Debug] [22]: App:intel driver & support assistant, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel Driver & Support Assistant.lnk
+2025-09-10 09:32:11.718 [Debug] [22]: App:microsoft edge, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk
+2025-09-10 09:32:11.720 [Debug] [22]: App:musehub, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MuseHub.lnk
+2025-09-10 09:32:11.722 [Debug] [22]: App:onenote, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OneNote.lnk
+2025-09-10 09:32:11.724 [Debug] [22]: App:outlook (classic), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Outlook (classic).lnk
+2025-09-10 09:32:11.726 [Debug] [22]: App:powerpoint, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerPoint.lnk
+2025-09-10 09:32:11.728 [Debug] [22]: App:publisher, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Publisher.lnk
+2025-09-10 09:32:11.730 [Debug] [22]: App:sticky notes (new), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Sticky Notes (new).lnk
+2025-09-10 09:32:11.731 [Debug] [22]: App:teamviewer host, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TeamViewer Host.lnk
+2025-09-10 09:32:11.733 [Debug] [22]: App:visual studio 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019.lnk
+2025-09-10 09:32:11.735 [Debug] [22]: App:visual studio 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022 (2).lnk
+2025-09-10 09:32:11.737 [Debug] [22]: App:visual studio installer, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Installer.lnk
+2025-09-10 09:32:11.739 [Debug] [22]: App:word, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word.lnk
+2025-09-10 09:32:11.741 [Debug] [22]: App:administrative tools, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools.lnk
+2025-09-10 09:32:11.749 [Debug] [22]: App:netron, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Netron.lnk
+2025-09-10 09:32:11.752 [Debug] [22]: App:onedrive, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk
+2025-09-10 09:32:11.754 [Debug] [22]: App:7-zip file manager, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip\7-Zip File Manager.lnk
+2025-09-10 09:32:11.758 [Debug] [22]: App:speech recognition, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility\Speech Recognition.lnk
+2025-09-10 09:32:11.761 [Debug] [22]: App:remote desktop connection, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Remote Desktop Connection.lnk
+2025-09-10 09:32:11.763 [Debug] [22]: App:steps recorder, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Steps Recorder.lnk
+2025-09-10 09:32:11.765 [Debug] [22]: App:windows media player legacy, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+2025-09-10 09:32:11.767 [Debug] [22]: App:wordpad, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Wordpad.lnk
+2025-09-10 09:32:11.769 [Debug] [22]: App:xps viewer, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\XPS Viewer.lnk
+2025-09-10 09:32:11.774 [Debug] [22]: App:dfrgui, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\dfrgui.lnk
+2025-09-10 09:32:11.776 [Debug] [22]: App:disk cleanup, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Disk Cleanup.lnk
+2025-09-10 09:32:11.780 [Debug] [22]: App:iscsi initiator, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\iSCSI Initiator.lnk
+2025-09-10 09:32:11.782 [Debug] [22]: App:memory diagnostics tool, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Memory Diagnostics Tool.lnk
+2025-09-10 09:32:11.784 [Debug] [22]: App:odbc data sources (32-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+2025-09-10 09:32:11.785 [Debug] [22]: App:odbc data sources (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (64-bit).lnk
+2025-09-10 09:32:11.789 [Debug] [22]: App:recoverydrive, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\RecoveryDrive.lnk
+2025-09-10 09:32:11.791 [Debug] [22]: App:registry editor, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Registry Editor.lnk
+2025-09-10 09:32:11.792 [Debug] [22]: App:resource monitor, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Resource Monitor.lnk
+2025-09-10 09:32:11.796 [Debug] [22]: App:system configuration, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk
+2025-09-10 09:32:11.798 [Debug] [22]: App:system information, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Information.lnk
+2025-09-10 09:32:11.803 [Debug] [22]: App:anaconda navigator, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Anaconda Navigator.lnk
+2025-09-10 09:32:11.806 [Debug] [22]: App:anaconda powershell prompt, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Anaconda Powershell Prompt.lnk
+2025-09-10 09:32:11.807 [Debug] [22]: App:anaconda prompt, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Anaconda Prompt.lnk
+2025-09-10 09:32:11.809 [Debug] [22]: App:jupyter notebook, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Jupyter Notebook.lnk
+2025-09-10 09:32:11.811 [Debug] [22]: App:reset spyder settings, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Reset Spyder Settings.lnk
+2025-09-10 09:32:11.813 [Debug] [22]: App:spyder, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Spyder.lnk
+2025-09-10 09:32:11.815 [Debug] [22]: App:cmake (cmake-gui), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\CMake\CMake (cmake-gui).lnk
+2025-09-10 09:32:11.819 [Debug] [22]: App:uninstall cmake, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\CMake\Uninstall CMake.lnk
+2025-09-10 09:32:11.821 [Debug] [22]: App:git bash, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\Git Bash.lnk
+2025-09-10 09:32:11.823 [Debug] [22]: App:git cmd, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\Git CMD.lnk
+2025-09-10 09:32:11.825 [Debug] [22]: App:git gui, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\Git GUI.lnk
+2025-09-10 09:32:11.831 [Debug] [22]: App:hwinfo64, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\HWiNFO64\HWiNFO64.lnk
+2025-09-10 09:32:11.833 [Debug] [22]: App:hwinfo® 64, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\HWiNFO64\HWiNFO® 64.lnk
+2025-09-10 09:32:11.835 [Debug] [22]: App:intel oneapi command prompt for ia32 for visual studio 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel oneAPI 2024\Intel oneAPI command prompt for IA32 for Visual Studio 2022.lnk
+2025-09-10 09:32:11.837 [Debug] [22]: App:intel oneapi command prompt for intel 64 for visual studio 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel oneAPI 2024\Intel oneAPI command prompt for Intel 64 for Visual Studio 2022.lnk
+2025-09-10 09:32:11.839 [Debug] [22]: App:intel vtune profiler 2024.1, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel oneAPI 2024\Intel VTune Profiler 2024.1.lnk
+2025-09-10 09:32:11.841 [Debug] [22]: App:office language preferences, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office Tools\Office Language Preferences.lnk
+2025-09-10 09:32:11.844 [Debug] [22]: App:install additional tools for node.js, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js\Install Additional Tools for Node.js.lnk
+2025-09-10 09:32:11.845 [Debug] [22]: App:node.js command prompt, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js\Node.js command prompt.lnk
+2025-09-10 09:32:11.847 [Debug] [22]: App:node.js, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js\Node.js.lnk
+2025-09-10 09:32:11.849 [Debug] [22]: App:uninstall node.js, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js\Uninstall Node.js.lnk
+2025-09-10 09:32:11.852 [Debug] [22]: App:nvm, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVM for Windows\nvm.lnk
+2025-09-10 09:32:11.854 [Debug] [22]: App:uninstall nvm, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVM for Windows\Uninstall nvm.lnk
+2025-09-10 09:32:11.856 [Debug] [22]: App:application stack builder, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 16\Application Stack Builder.lnk
+2025-09-10 09:32:11.858 [Debug] [22]: App:pgadmin 4, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 16\pgAdmin 4.lnk
+2025-09-10 09:32:11.860 [Debug] [22]: App:reload configuration, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 16\Reload Configuration.lnk
+2025-09-10 09:32:11.865 [Debug] [22]: App:idle (python 3.12 64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.12\IDLE (Python 3.12 64-bit).lnk
+2025-09-10 09:32:11.867 [Debug] [22]: App:python 3.12 (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.12\Python 3.12 (64-bit).lnk
+2025-09-10 09:32:11.871 [Debug] [22]: App:python 3.12 module docs (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.12\Python 3.12 Module Docs (64-bit).lnk
+2025-09-10 09:32:11.873 [Debug] [22]: App:idle (python 3.7 64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.7\IDLE (Python 3.7 64-bit).lnk
+2025-09-10 09:32:11.875 [Debug] [22]: App:python 3.7 (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.7\Python 3.7 (64-bit).lnk
+2025-09-10 09:32:11.877 [Debug] [22]: App:python 3.7 manuals (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.7\Python 3.7 Manuals (64-bit).lnk
+2025-09-10 09:32:11.880 [Debug] [22]: App:python 3.7 module docs (64-bit), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.7\Python 3.7 Module Docs (64-bit).lnk
+2025-09-10 09:32:11.882 [Debug] [22]: App:sunloginclient, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SunloginClient\SunloginClient.lnk
+2025-09-10 09:32:11.884 [Debug] [22]: App:uninstall sunloginclient, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SunloginClient\Uninstall SunloginClient.lnk
+2025-09-10 09:32:11.886 [Debug] [22]: App:task manager, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools\Task Manager.lnk
+2025-09-10 09:32:11.889 [Debug] [22]: App:tightvnc viewer, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Viewer.lnk
+2025-09-10 09:32:11.900 [Debug] [22]: App:vlc media player - reset preferences and cache files, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player - reset preferences and cache files.lnk
+2025-09-10 09:32:11.902 [Debug] [22]: App:vlc media player skinned, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player skinned.lnk
+2025-09-10 09:32:11.905 [Debug] [22]: App:vlc media player, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player.lnk
+2025-09-10 09:32:11.907 [Debug] [22]: App:windows powershell ise (x86), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE (x86).lnk
+2025-09-10 09:32:11.909 [Debug] [22]: App:windows powershell ise, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE.lnk
+2025-09-10 09:32:11.912 [Debug] [22]: App:卸载, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\卸载.lnk
+2025-09-10 09:32:11.915 [Debug] [22]: App:皮肤盒子, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\皮肤盒子.lnk
+2025-09-10 09:32:11.917 [Debug] [22]: App:设置, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\设置.lnk
+2025-09-10 09:32:11.919 [Debug] [22]: App:设置向导, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\设置向导.lnk
+2025-09-10 09:32:11.921 [Debug] [22]: App:输入法修复器, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\输入法修复器.lnk
+2025-09-10 09:32:11.923 [Debug] [22]: App:输入法管理器, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\搜狗输入法\输入法管理器.lnk
+2025-09-10 09:32:11.926 [Debug] [22]: App:livecaptions, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\LiveCaptions.lnk
+2025-09-10 09:32:11.928 [Debug] [22]: App:magnify, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\Magnify.lnk
+2025-09-10 09:32:11.930 [Debug] [22]: App:narrator, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\Narrator.lnk
+2025-09-10 09:32:11.932 [Debug] [22]: App:on-screen keyboard, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\On-Screen Keyboard.lnk
+2025-09-10 09:32:11.934 [Debug] [22]: App:voiceaccess, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\VoiceAccess.lnk
+2025-09-10 09:32:11.945 [Debug] [22]: App:git bash (llm_bench), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Git Bash (llm_bench).lnk
+2025-09-10 09:32:11.957 [Debug] [22]: App:miniforge prompt, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Miniforge3\Miniforge Prompt.lnk
+2025-09-10 09:32:11.959 [Debug] [22]: App:msys2 clang64, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2\MSYS2 CLANG64.lnk
+2025-09-10 09:32:11.961 [Debug] [22]: App:msys2 clangarm64, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2\MSYS2 CLANGARM64.lnk
+2025-09-10 09:32:11.963 [Debug] [22]: App:msys2 mingw64, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2\MSYS2 MINGW64.lnk
+2025-09-10 09:32:11.966 [Debug] [22]: App:msys2 msys, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2\MSYS2 MSYS.lnk
+2025-09-10 09:32:11.968 [Debug] [22]: App:msys2 ucrt64, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2\MSYS2 UCRT64.lnk
+2025-09-10 09:32:11.979 [Debug] [22]: App:nasm, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Netwide Assembler 2.16.03\nasm.lnk
+2025-09-10 09:32:11.982 [Debug] [22]: App:uninstall, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Netwide Assembler 2.16.03\Uninstall.lnk
+2025-09-10 09:32:11.986 [Debug] [22]: App:idle (python 3.10 64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10\IDLE (Python 3.10 64-bit).lnk
+2025-09-10 09:32:11.989 [Debug] [22]: App:python 3.10 (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10\Python 3.10 (64-bit).lnk
+2025-09-10 09:32:11.991 [Debug] [22]: App:python 3.10 manuals (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10\Python 3.10 Manuals (64-bit).lnk
+2025-09-10 09:32:11.994 [Debug] [22]: App:python 3.10 module docs (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10\Python 3.10 Module Docs (64-bit).lnk
+2025-09-10 09:32:11.997 [Debug] [22]: App:idle (python 3.9 64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9\IDLE (Python 3.9 64-bit).lnk
+2025-09-10 09:32:11.999 [Debug] [22]: App:python 3.9 (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9\Python 3.9 (64-bit).lnk
+2025-09-10 09:32:12.001 [Debug] [22]: App:python 3.9 manuals (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9\Python 3.9 Manuals (64-bit).lnk
+2025-09-10 09:32:12.002 [Debug] [22]: App:python 3.9 module docs (64-bit), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9\Python 3.9 Module Docs (64-bit).lnk
+2025-09-10 09:32:12.004 [Debug] [22]: App:command prompt, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk
+2025-09-10 09:32:12.012 [Debug] [22]: App:visual studio code, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk
+2025-09-10 09:32:12.015 [Debug] [22]: App:windows powershell (x86), Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell (x86).lnk
+2025-09-10 09:32:12.017 [Debug] [22]: App:windows powershell, Path:C:\Users\53422\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+2025-09-10 09:32:12.021 [Debug] [22]: App:character map, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools\Character Map.lnk
+2025-09-10 09:32:12.023 [Debug] [22]: App:intel® graphics software, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel\Intel Graphics Software\Intel® Graphics Software.lnk
+2025-09-10 09:32:12.025 [Debug] [22]: App:run tightvnc server, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Application Mode)\Run TightVNC Server.lnk
+2025-09-10 09:32:12.028 [Debug] [22]: App:tightvnc server - control interface, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Application Mode)\TightVNC Server - Control Interface.lnk
+2025-09-10 09:32:12.030 [Debug] [22]: App:tightvnc server - offline configuration, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Application Mode)\TightVNC Server - Offline Configuration.lnk
+2025-09-10 09:32:12.032 [Debug] [22]: App:register tightvnc service, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\Register TightVNC Service.lnk
+2025-09-10 09:32:12.034 [Debug] [22]: App:start tightvnc service, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\Start TightVNC Service.lnk
+2025-09-10 09:32:12.036 [Debug] [22]: App:stop tightvnc service, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\Stop TightVNC Service.lnk
+2025-09-10 09:32:12.038 [Debug] [22]: App:tightvnc service - control interface, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\TightVNC Service - Control Interface.lnk
+2025-09-10 09:32:12.040 [Debug] [22]: App:tightvnc service - offline configuration, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\TightVNC Service - Offline Configuration.lnk
+2025-09-10 09:32:12.042 [Debug] [22]: App:unregister tightvnc service, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TightVNC\TightVNC Server (Service Mode)\Unregister TightVNC Service.lnk
+2025-09-10 09:32:12.044 [Debug] [22]: App:debuggable package manager, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\Debuggable Package Manager.lnk
+2025-09-10 09:32:12.046 [Debug] [22]: App:developer command prompt for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\Developer Command Prompt for VS 2019.lnk
+2025-09-10 09:32:12.048 [Debug] [22]: App:developer powershell for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\Developer PowerShell for VS 2019.lnk
+2025-09-10 09:32:12.050 [Debug] [22]: App:debuggable package manager (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Debuggable Package Manager (2).lnk
+2025-09-10 09:32:12.054 [Debug] [22]: App:developer command prompt for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer Command Prompt for VS 2022 (2).lnk
+2025-09-10 09:32:12.056 [Debug] [22]: App:developer command prompt for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer Command Prompt for VS 2022.lnk
+2025-09-10 09:32:12.058 [Debug] [22]: App:developer powershell for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022 (2).lnk
+2025-09-10 09:32:12.060 [Debug] [22]: App:developer powershell for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk
+2025-09-10 09:32:12.062 [Debug] [22]: App:application verifier (x64), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Application Verifier (X64)\Application Verifier (X64).lnk
+2025-09-10 09:32:12.066 [Debug] [22]: App:application verifier (wow), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Application Verifier (X86)\Application Verifier (WOW).lnk
+2025-09-10 09:32:12.068 [Debug] [22]: App:windows app cert kit, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows App Certification Kit\Windows App Cert Kit.lnk
+2025-09-10 09:32:12.072 [Debug] [22]: App:gpuview, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Performance Toolkit\GPUView.lnk
+2025-09-10 09:32:12.074 [Debug] [22]: App:windows performance analyzer, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Performance Toolkit\Windows Performance Analyzer.lnk
+2025-09-10 09:32:12.076 [Debug] [22]: App:windows performance recorder, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Performance Toolkit\Windows Performance Recorder.lnk
+2025-09-10 09:32:12.091 [Debug] [22]: App:windows software development kit, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Software Development Kit\Windows Software Development Kit.lnk
+2025-09-10 09:32:12.106 [Debug] [22]: App:x64 native tools command prompt for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2019.lnk
+2025-09-10 09:32:12.108 [Debug] [22]: App:x64_x86 cross tools command prompt for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\VC\x64_x86 Cross Tools Command Prompt for VS 2019.lnk
+2025-09-10 09:32:12.110 [Debug] [22]: App:x86 native tools command prompt for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\VC\x86 Native Tools Command Prompt for VS 2019.lnk
+2025-09-10 09:32:12.112 [Debug] [22]: App:x86_x64 cross tools command prompt for vs 2019, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\VC\x86_x64 Cross Tools Command Prompt for VS 2019.lnk
+2025-09-10 09:32:12.114 [Debug] [22]: App:x64 native tools command prompt for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2022 (2).lnk
+2025-09-10 09:32:12.116 [Debug] [22]: App:x64 native tools command prompt for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2022.lnk
+2025-09-10 09:32:12.118 [Debug] [22]: App:x64_x86 cross tools command prompt for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64_x86 Cross Tools Command Prompt for VS 2022 (2).lnk
+2025-09-10 09:32:12.120 [Debug] [22]: App:x64_x86 cross tools command prompt for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64_x86 Cross Tools Command Prompt for VS 2022.lnk
+2025-09-10 09:32:12.122 [Debug] [22]: App:x86 native tools command prompt for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x86 Native Tools Command Prompt for VS 2022 (2).lnk
+2025-09-10 09:32:12.124 [Debug] [22]: App:x86 native tools command prompt for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x86 Native Tools Command Prompt for VS 2022.lnk
+2025-09-10 09:32:12.126 [Debug] [22]: App:x86_x64 cross tools command prompt for vs 2022 (2), Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x86_x64 Cross Tools Command Prompt for VS 2022 (2).lnk
+2025-09-10 09:32:12.128 [Debug] [22]: App:x86_x64 cross tools command prompt for vs 2022, Path:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x86_x64 Cross Tools Command Prompt for VS 2022.lnk
+2025-09-10 09:32:12.128 [Info] [22]: GetAppTask() end
+2025-09-10 09:32:12.880 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_DOMContentLoaded]: Start.
+2025-09-10 09:32:12.880 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_DOMContentLoaded]: Done.
+2025-09-10 09:32:12.953 [Debug] [1]: [ViewModelBase]: ID=ee80bafc-04b7-4d13-b00d-b9a3b7f7e47a, propertyName=IsSupportXiaoHui, value=False.
+2025-09-10 09:32:12.954 [Info] [1]: [AppConfigViewModel] [GetRuntimeConfig] Start to get runtime config.
+2025-09-10 09:32:12.956 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=AppConfigViewModel, ID=ee80bafc-04b7-4d13-b00d-b9a3b7f7e47a.
+2025-09-10 09:32:12.956 [Info] [34]: [AppConfigViewModel] [GetInviteStatus] 1. Start.
+2025-09-10 09:32:12.956 [Debug] [38]: [ViewModelBase]: ID=ee80bafc-04b7-4d13-b00d-b9a3b7f7e47a, propertyName=IsSupportGameMode, value=True.
+2025-09-10 09:32:12.956 [Info] [34]: [AppConfigViewModel] [GetInviteStatus] 2.End: PASS.
+2025-09-10 09:32:12.956 [Info] [38]: [AppConfigViewModel] [GetRuntimeConfig] done. IsSupportGameMode=True
+2025-09-10 09:32:12.967 [Debug] [1]: [ViewModelBase]: ID=9894afd1-0959-4de0-9433-720c2eacdbcf, propertyName=IsAgreedUseModel, value=True.
+2025-09-10 09:32:12.967 [Debug] [1]: [ViewModelBase]: ID=9894afd1-0959-4de0-9433-720c2eacdbcf, propertyName=IsModelCompiling, value=False.
+2025-09-10 09:32:12.967 [Debug] [1]: [ViewModelBase]: ID=9894afd1-0959-4de0-9433-720c2eacdbcf, propertyName=IsAllowFeedbackLikes, value=False.
+2025-09-10 09:32:12.968 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=ChatViewModel, ID=9894afd1-0959-4de0-9433-720c2eacdbcf.
+2025-09-10 09:32:12.979 [Debug] [1]: [ViewModelBase]: ID=466f2132-4cd3-4647-807b-6a2eb1588ef6, propertyName=IsPlaying, value=False.
+2025-09-10 09:32:12.980 [Debug] [1]: [ViewModelBase]: ID=466f2132-4cd3-4647-807b-6a2eb1588ef6, propertyName=PlayMode, value=LoopPlay.
+2025-09-10 09:32:12.980 [Debug] [1]: [ViewModelBase]: ID=5672f2f6-d62b-4e6c-ae03-ab8539a094d9, propertyName=XiMaLaYaIsPlaying, value=False.
+2025-09-10 09:32:12.984 [Debug] [1]: [ViewModelBase]: ID=5672f2f6-d62b-4e6c-ae03-ab8539a094d9, propertyName=IsEyeProtectionEnabled, value=False.
+2025-09-10 09:32:12.985 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=AppViewModel, ID=5672f2f6-d62b-4e6c-ae03-ab8539a094d9.
+2025-09-10 09:32:12.989 [Debug] [1]: [ViewModelBase]: ID=4223ee9f-18fd-4930-a077-08a9df0b5fac, propertyName=IsLogin, value=False.
+2025-09-10 09:32:12.989 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=WeChatShareViewModel, ID=4223ee9f-18fd-4930-a077-08a9df0b5fac.
+2025-09-10 09:32:13.028 [Debug] [1]: [AIBoxClient] [Constuctor] initialized.
+2025-09-10 09:32:13.030 [Debug] [1]: [AIBoxViewModel] [EmbeddingService_OnConnectedChanged]: Embedding service connection status changed. IsConnected=False, isLoggedIn=False
+2025-09-10 09:32:13.030 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=AIBoxViewModel, ID=62b2c301-6366-43b5-b597-dacd4fec4661.
+2025-09-10 09:32:13.049 [Debug] [1]: [ViewModelBase]: ID=27c258a2-34cc-4b29-8d17-eecc6d99d4f9, propertyName=IsLogin, value=False.
+2025-09-10 09:32:13.049 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=AuthenticationViewModel, ID=27c258a2-34cc-4b29-8d17-eecc6d99d4f9.
+2025-09-10 09:32:13.071 [Debug] [38]: [WebviewHtml] [ChatService] [constructor]: ChatService init {"isSupportModel":false,"notSupportModelReason":0,"isAgreedUseModel":true,"isAllowFeedbackLikes":false,"modelStatus":0,"modelCompiling":false,"modelDownloadStatus":0,"asrStatus":0,"autoScrollToBottom":true,"publishMessageIdMap":{},"disposable":{"_disposed":false},"eventEmitter":{"_events":{},"_eventsCount":0}}
+2025-09-10 09:32:13.073 [Debug] [38]: [WebviewHtml] [WeChatShareService] [constructor]: WeChatShareService init {"compositeDisposable":{"_disposed":false,"disposables":{}},"isLogin":false,"weChatShareQrcodePath":"","fileList":[],"eventEmitter":{"_events":{},"_eventsCount":0}}
+2025-09-10 09:32:13.075 [Debug] [1]: [MainWebviewWindow] [WebView_NavigationCompleted]: Received. NavigationId=2.
+2025-09-10 09:32:13.085 [Debug] [1]: [ViewModelBase]: ID=fae3c2aa-40e1-4e9e-a26c-49defca1206a, propertyName=LoadingState, value=Loading.
+2025-09-10 09:32:13.085 [Debug] [1]: [ViewModelBase]: ID=fae3c2aa-40e1-4e9e-a26c-49defca1206a, propertyName=LoadingErrorType, value=NoError.
+2025-09-10 09:32:13.085 [Debug] [1]: [ViewModelBase]: ID=fae3c2aa-40e1-4e9e-a26c-49defca1206a, propertyName=LoadingErrorMsg, value=.
+2025-09-10 09:32:13.086 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=AppEntryViewModel, ID=fae3c2aa-40e1-4e9e-a26c-49defca1206a.
+2025-09-10 09:32:13.090 [Debug] [1]: [ViewModelBase]: ID=9a981b30-b615-40be-b6cd-6ff089040963, propertyName=WindowState, value=Normal.
+2025-09-10 09:32:13.090 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=WindowViewModel, ID=9a981b30-b615-40be-b6cd-6ff089040963.
+2025-09-10 09:32:13.097 [Debug] [38]: [WebviewHtml] [Loading] [useEffect]: LoadingState=1, LoadingErrorType=0, LoadingErrorMsg=.
+2025-09-10 09:32:13.098 [Debug] [1]: GetUserId, token is null or empty
+2025-09-10 09:32:14.260 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_WebMessageReceived]: Start. message={"data":{},"type":0,"source":0}
+2025-09-10 09:32:14.265 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_WebMessageReceived]: Done.
+2025-09-10 09:32:14.267 [Debug] [34]: [WebviewMessage] [UpdateWebviewStatus] source=CorePanel, status=Initialized.
+2025-09-10 09:32:14.267 [Debug] [1]: GetUserId, token is null or empty
+2025-09-10 09:32:16.085 [Error] [23]: Ping2:FAIL,请求超时： requestUri:https://xiaowei-stg.hpapps.com.cn/xiaowei/api/v1/health, The operation has timed out., 
+2025-09-10 09:32:31.106 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_net_status_changed
+2025-09-10 09:32:31.106 [Info] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnNetStatusChange:0
+2025-09-10 09:32:31.106 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0
+2025-09-10 09:32:31.106 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, UpdateOnlineStatus False False
+2025-09-10 09:32:31.106 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, Offline
+2025-09-10 09:32:31.106 [Info] [41]: onlineSDK.AvailabilityChanged IsOnlineMode:False True False
+2025-09-10 09:32:31.106 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0 end
+2025-09-10 09:32:31.106 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_net_status_changed
+2025-09-10 09:32:31.112 [Info] [36]: NetworkConnectivityLevel2 is InternetAccess
+2025-09-10 09:32:31.609 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_net_status_changed
+2025-09-10 09:32:31.609 [Info] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnNetStatusChange:0
+2025-09-10 09:32:31.609 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0
+2025-09-10 09:32:31.609 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, UpdateOnlineStatus False False
+2025-09-10 09:32:31.609 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, Offline
+2025-09-10 09:32:31.609 [Info] [41]: onlineSDK.AvailabilityChanged IsOnlineMode:False True False
+2025-09-10 09:32:31.609 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:0 end
+2025-09-10 09:32:31.609 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_net_status_changed
+2025-09-10 09:32:31.614 [Info] [38]: NetworkConnectivityLevel2 is InternetAccess
+2025-09-10 09:32:31.772 [Info] [36]: Ping2:OK
+2025-09-10 09:32:34.360 [Info] [34]: Ping2:OK
+2025-09-10 09:32:36.685 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_net_status_changed
+2025-09-10 09:32:36.685 [Info] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnNetStatusChange:1
+2025-09-10 09:32:36.685 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:1
+2025-09-10 09:32:36.685 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, UpdateOnlineStatus True False
+2025-09-10 09:32:36.685 [Info] [41]: [XiaoweiVoiceAI] : XiaoWei SDK Online Status, Online
+2025-09-10 09:32:36.685 [Info] [41]: IsOnlineChange AbortRequestAsync
+2025-09-10 09:32:36.685 [Warn] [41]: OnlineModeChanged，IsLogin is false
+2025-09-10 09:32:36.685 [Info] [41]: onlineSDK.AvailabilityChanged IsOnlineMode:True True True
+2025-09-10 09:32:36.685 [Info] [41]: [XiaoweiVoiceAI] : SDK Online state:1 end
+2025-09-10 09:32:36.685 [Debug] [41]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_net_status_changed
+2025-09-10 09:32:37.013 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_login_complete
+2025-09-10 09:32:37.014 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start _xiaowei_start_service
+2025-09-10 09:32:37.017 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end _xiaowei_start_service,0
+2025-09-10 09:32:37.017 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLoginComplete, _xiaowei_start_service, ret:0
+2025-09-10 09:32:37.017 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_login_complete
+2025-09-10 09:32:37.534 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_binder_list_change
+2025-09-10 09:32:37.534 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start fill_binder_list
+2025-09-10 09:32:37.534 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end fill_binder_list
+2025-09-10 09:32:37.535 [Info] [45]: [XiaoweiVoiceAI] : OnBinderListChanged, binderList.Count:0, error_code:0, IsLogin:False
+2025-09-10 09:32:37.535 [Info] [45]: [XiaoweiVoiceAI] : OnLoginComplete, result:0
+2025-09-10 09:32:37.535 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_binder_list_change
+2025-09-10 09:32:37.535 [Debug] [23]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start _device_get_uin
+2025-09-10 09:32:37.536 [Debug] [23]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end _device_get_uin,25985283666357467
+2025-09-10 09:32:37.536 [Info] [23]: [XiaoweiVoiceAI] : Sdk LoginSuccess
+2025-09-10 09:32:37.536 [Debug] [23]: [XiaoweiVoiceAI] : Qrcode:, Din:25985283666357467
+2025-09-10 09:32:37.536 [Info] [23]: XiaoweiAI_IsInitializedChanged, isInited:True
+2025-09-10 09:32:37.537 [Debug] [23]: [ViewModelBase]: ID=fae3c2aa-40e1-4e9e-a26c-49defca1206a, propertyName=LoadingState, value=Loaded.
+2025-09-10 09:32:37.539 [Info] [23]: SetLoadingState,state:Loading, CurrentLoadingState:Loaded, _sdkInitialized:True, _appServiceConnected:True, CurrentDeviceAppSupportErrorType:NoError
+2025-09-10 09:32:37.539 [Info] [23]: XiaoweiAI Initialized
+2025-09-10 09:32:37.540 [Debug] [34]: [WebviewHtml] [Loading] [useEffect] [OnLoadingStateChanged]: state=2.
+2025-09-10 09:32:37.540 [Warn] [23]: OnStartupAsync, isLogin:False
+2025-09-10 09:32:37.542 [Debug] [35]: [WebviewHtml] [Loading] [handleLoadingLoaded]: isLogin=false, currentOOBEStage=1.
+2025-09-10 09:32:37.546 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=SystemViewModel, ID=43c2c3dc-a042-4bce-805b-af73e7845cad.
+2025-09-10 09:32:37.547 [Info] [23]: Device Name:HP Pavilion Plus Laptop 16-ab1xxxABC4020076,Windows OS Version:Win32NT,Microsoft Windows NT 10.0.22631.0
+2025-09-10 09:32:37.547 [Info] [23]: Start Write Registry Info...
+2025-09-10 09:32:37.551 [Info] [23]: Xiaowei Registry Info: {"AgentActivationEnabled":null,"AgentActivationOnLockScreenEnabled":0,"DisplayName":"Xiaowei Xiaowei","LANGID":1033,"IsLanguageAvailable":0,"HwKeywordState":1,"SwKeywordState":1}
+2025-09-10 09:32:37.551 [Info] [34]: PersonalizedCommands Initialize start.
+2025-09-10 09:32:37.552 [Debug] [23]: GetUserId, token is null or empty
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:settings
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:dev home (preview)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:quick assist
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:mixed reality portal
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:outlook (new)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:family
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:energy star
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:资讯
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:smedio true dvd for hp
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp enhanced lighting
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel® connectivity performance suite
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:便笺
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:获取帮助
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:get started
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows backup
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:game bar
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows 安全中心
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:dropbox 促销
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:相机
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:惠普管家 (hp support assistant)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:计算器
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft to do
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:地图
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:邮件
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:日历
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft clipchamp
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft whiteboard
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:solitaire & casual games
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp pc hardware diagnostics windows
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:反馈中心
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:电影和电视
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:截图工具
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp system event utility
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft teams
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:手机连接
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft store
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:照片
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel® unison™
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft defender
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:画图
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:时钟
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:xbox
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft 365 copilot
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp smart
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:spotify
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:媒体播放器
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:omen gaming hub
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:copilot
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:记事本
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:提示
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:dts sound unbound
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:power automate
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:录音机
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:天气
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hp privacy settings
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:惠小微
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:access
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:adobe offers
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:amazon.com
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:beyond compare 4
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:booking.com
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:excel
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:google chrome
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel driver & support assistant
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:microsoft edge
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:musehub
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:onenote
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:outlook (classic)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:powerpoint
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:publisher
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:sticky notes (new)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:teamviewer host
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:visual studio 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:visual studio 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:visual studio installer
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:word
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:administrative tools
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:netron
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:onedrive
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:7-zip file manager
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:speech recognition
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:remote desktop connection
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:steps recorder
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows media player legacy
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:wordpad
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:xps viewer
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:dfrgui
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:disk cleanup
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:iscsi initiator
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:memory diagnostics tool
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:odbc data sources (32-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:odbc data sources (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:recoverydrive
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:registry editor
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:resource monitor
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:system configuration
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:system information
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:anaconda navigator
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:anaconda powershell prompt
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:anaconda prompt
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:jupyter notebook
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:reset spyder settings
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:spyder
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:cmake (cmake-gui)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:uninstall cmake
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:git bash
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:git cmd
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:git gui
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hwinfo64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:hwinfo® 64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel oneapi command prompt for ia32 for visual studio 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel oneapi command prompt for intel 64 for visual studio 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel vtune profiler 2024.1
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:office language preferences
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:install additional tools for node.js
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:node.js command prompt
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:node.js
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:uninstall node.js
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:nvm
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:uninstall nvm
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:application stack builder
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:pgadmin 4
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:reload configuration
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:idle (python 3.12 64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.12 (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.12 module docs (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:idle (python 3.7 64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.7 (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.7 manuals (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.7 module docs (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:sunloginclient
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:uninstall sunloginclient
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:task manager
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:tightvnc viewer
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:vlc media player - reset preferences and cache files
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:vlc media player skinned
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:vlc media player
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows powershell ise (x86)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows powershell ise
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:卸载
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:皮肤盒子
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:设置
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:设置向导
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:输入法修复器
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:输入法管理器
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:livecaptions
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:magnify
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:narrator
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:on-screen keyboard
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:voiceaccess
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:git bash (llm_bench)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:miniforge prompt
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:msys2 clang64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:msys2 clangarm64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:msys2 mingw64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:msys2 msys
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:msys2 ucrt64
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:nasm
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:uninstall
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:idle (python 3.10 64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.10 (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.10 manuals (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.10 module docs (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:idle (python 3.9 64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.9 (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.9 manuals (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:python 3.9 module docs (64-bit)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:command prompt
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:visual studio code
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows powershell (x86)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows powershell
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:character map
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:intel® graphics software
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:run tightvnc server
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:tightvnc server - control interface
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:tightvnc server - offline configuration
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:register tightvnc service
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:start tightvnc service
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:stop tightvnc service
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:tightvnc service - control interface
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:tightvnc service - offline configuration
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:unregister tightvnc service
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:debuggable package manager
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer command prompt for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer powershell for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:debuggable package manager (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer command prompt for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer command prompt for vs 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer powershell for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:developer powershell for vs 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:application verifier (x64)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:application verifier (wow)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows app cert kit
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:gpuview
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows performance analyzer
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows performance recorder
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:windows software development kit
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64 native tools command prompt for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64_x86 cross tools command prompt for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86 native tools command prompt for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86_x64 cross tools command prompt for vs 2019
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64 native tools command prompt for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64 native tools command prompt for vs 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64_x86 cross tools command prompt for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x64_x86 cross tools command prompt for vs 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86 native tools command prompt for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86 native tools command prompt for vs 2022
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86_x64 cross tools command prompt for vs 2022 (2)
+2025-09-10 09:32:37.553 [Debug] [23]: RecordAppList: item:x86_x64 cross tools command prompt for vs 2022
+2025-09-10 09:32:37.555 [Info] [23]: _onlineSDK.Initialized
+2025-09-10 09:32:37.555 [Info] [34]: [PersonalizedCommands] GetCustomCommands - 1.start
+2025-09-10 09:32:37.556 [Debug] [34]: GetUserId, token is null or empty
+2025-09-10 09:32:37.556 [Debug] [34]: GetUserId, token is null or empty
+2025-09-10 09:32:37.558 [Debug] [23]: [AlarmClockService] [LoadArchivedAlarms]: start.
+2025-09-10 09:32:37.558 [Debug] [23]: GetUserId, token is null or empty
+2025-09-10 09:32:37.558 [Debug] [23]: [AlarmClockService] [LoadArchivedAlarms]: done.
+2025-09-10 09:32:37.558 [Info] [34]: [PersonalizedCommands] LoadCommands - 1.start userLocalFileSavePath = C:\Users\53422\AppData\Local\Packages\AD2F1837.19285F10D180_v10z8vjag6ke6\LocalState\custom_command.json
+2025-09-10 09:32:37.559 [Debug] [23]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start _xiaowei_request_cmd
+2025-09-10 09:32:37.559 [Debug] [23]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end _xiaowei_request_cmd,0
+2025-09-10 09:32:37.559 [Info] [23]: [XiaoweiVoiceAI] : FetchAlarmList voiceId:ESTXCPOKDKKCHCOREGJNZEZJQFZXBOCS
+2025-09-10 09:32:37.560 [Debug] [23]: [XiaoweiVoiceAI] : lock wait:AddSession
+2025-09-10 09:32:37.560 [Debug] [23]: [XiaoweiVoiceAI] : lock enter:AddSession
+2025-09-10 09:32:37.563 [Debug] [23]: [WebviewHtml] [LoginContent] [useEffect]: currentOOBEStage=1.
+2025-09-10 09:32:37.565 [Info] [34]: [PersonalizedCommands] LoadCommands - 2.end
+2025-09-10 09:32:37.565 [Info] [34]: [PersonalizedCommands] GetCustomCommands - 8.end
+2025-09-10 09:32:37.566 [Debug] [34]: [WebviewHtml] [useAppEntryViewModel] [setOOBEStage] start. stage=Login.
+2025-09-10 09:32:37.575 [Debug] [34]: [WebviewHtml] [useAppEntryViewModel] [setOOBEStage] done. stage=Login.
+2025-09-10 09:32:37.618 [Error] [1]: RecordLog：ReportOOBEAsync->0->
+2025-09-10 09:32:37.627 [Debug] [34]: [WebviewHtml] [LoginScan] [getLoginConfigAsync] config: {"LOGIN_CALLBACK_DOMAINS":["https://login3.stg.cd.id.hp.com/login3/social-login"],"LOGIN_SUCCESS_REDIRECT_PREFIXES":["http://localhost:3000"],"QR_CODE_PAGE_URLS":["https://open.weixin.qq.com/connect/qrconnect"],"GET_COOKIE_URL":"https://api.horizon.hp.com.cn","SESSION_COOKIE_NAME":"oauth2_authentication_session_hpid_stg","DOM_MANIPULATION_RULES":[{"protocol":"https","domain":"login3.stg.cd.id.hp.com","pathPattern":"/login3/sign-up","selector":"#switch-username","type":"remove"},{"protocol":"https","domain":"login3.stg.cd.id.hp.com","pathPattern":"/login3/sign-up","selector":"form.css-1iw5l3j","type":"setStyle","value":"height: 430px;"}]}
+2025-09-10 09:32:37.675 [Debug] [34]: [WebviewHtml] [LoginScan] [getLoginConfigAsync] url: https://api.horizon.hp.com.cn/oauth/v1/auth?client_id=0e5e39ba-5f04-4be7-87e3-93acca00831b&redirect_uri=http://localhost:3000&state=10763842-9c76-4f7d-84c9-e3af85131464&response_type=code&acr_values=urn:hpbp:hpid_stg&idp_name=wechat
+2025-09-10 09:32:37.678 [Debug] [1]: [ViewModelFactory] [Create]: Registered ViewModel Name=WebViewViewModel, ID=b8e92d03-9d85-4fe2-a282-0a5dbff7574a.
+2025-09-10 09:32:37.684 [Debug] [1]: [WebViewViewModel] [CreateInnerWebView]: Start.
+2025-09-10 09:32:37.684 [Debug] [1]: [WebView2Mananger] [CreateWebview2]: Start.
+2025-09-10 09:32:37.684 [Debug] [1]: [WebView2Mananger] [CreateWebview2]: Processing. WebView2 webViewRuntimeVersion=140.0.3485.54, webViewRuntimeMinimumVersion=109.0.1518.78.
+2025-09-10 09:32:37.684 [Debug] [1]: [WebView2Mananger] [CreateWebview2]: Done.
+2025-09-10 09:32:37.695 [Debug] [1]: [WebViewViewModel] [CreateInnerWebView]: End.
+2025-09-10 09:32:37.761 [Debug] [1]: [WebView2Mananger] [WebView_Loaded]: Start.
+2025-09-10 09:32:37.765 [Debug] [34]: [WebviewHtml] [useWebviewViewModel] [createInnerWebview] done, id=1dd398f1-de0e-42b5-aee0-b4d495b56159, type=Login.
+2025-09-10 09:32:37.778 [Debug] [34]: [WebviewHtml] [useWebviewViewModel] [navigateTo] done, id=1dd398f1-de0e-42b5-aee0-b4d495b56159 url=https://api.horizon.hp.com.cn/oauth/v1/auth?client_id=0e5e39ba-5f04-4be7-87e3-93acca00831b&redirect_uri=http://localhost:3000&state=10763842-9c76-4f7d-84c9-e3af85131464&response_type=code&acr_values=urn:hpbp:hpid_stg&idp_name=wechat.
+2025-09-10 09:32:37.941 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: start on_request_callback
+2025-09-10 09:32:37.942 [Debug] [45]: [XiaoweiVoiceAI] : ClassDeviceSDK_callBackOnLog2 data: end on_request_callback
+2025-09-10 09:32:37.943 [Debug] [45]: [XiaoweiVoiceAI] : lock wait:GetTypeByVoiceId
+2025-09-10 09:32:37.943 [Debug] [45]: [XiaoweiVoiceAI] : lock enter:GetTypeByVoiceId
+2025-09-10 09:32:37.948 [Info] [45]: [XiaoweiVoiceAI] : sessionType:FetchAlarmList evt:Response, no error 
+    ---------------------------------------------------------
+      Din:25985283666357467, voiceId:ESTXCPOKDKKCHCOREGJNZEZJQFZXBOCS, controlId:0, controlValue:, error:0, wakeup_flag:No,  requestTxt:, responseTxt:,responseType:Clock, hasMore:False, hasMoreUp:False, intent:, hasHistoryPlayList:False, isRecovery:False, isNotify:False, resListType:Default, playBehavior:ReplaceAll, ctx.id:, ctx.silent_time:0, ctx.speak_time:0, ctx.wakeup_profile:Far, ctx.wakeup_type:Local 
+      skillname:闹钟, skillid:8dab4796-fa37-4114-0012-7637fa2b0001, skilltype:Internal, lastSkillname:, lastskillid:, lastskilltype:Internal, response data:{"clock_info":[],"server_time":1757467958}, extend_info:, len:0
+    ----------------- FetchAlarmList response end ------------- 
+
+2025-09-10 09:32:37.948 [Debug] [37]: [XiaoweiVoiceAI] : ProcessSpeechResponseInWorkThread, voiceId:ESTXCPOKDKKCHCOREGJNZEZJQFZXBOCS, Evt:Response, skill name:闹钟, skill id:8dab4796-fa37-4114-0012-7637fa2b0001
+2025-09-10 09:32:37.948 [Debug] [37]: [XiaoweiVoiceAI] : lock wait:GetTypeByVoiceId
+2025-09-10 09:32:37.948 [Debug] [37]: [XiaoweiVoiceAI] : lock enter:GetTypeByVoiceId
+2025-09-10 09:32:37.954 [Debug] [37]: [XiaoweiVoiceAI] : ProcessSpeechResponseInWorkThread end, voiceId:ESTXCPOKDKKCHCOREGJNZEZJQFZXBOCS, Evt:Response, skill name:闹钟, skill id:8dab4796-fa37-4114-0012-7637fa2b0001
+2025-09-10 09:32:37.956 [Info] [34]: AlarmResponseHandler，Clock_info is null
+2025-09-10 09:32:37.972 [Debug] [1]: [WebView2Mananger] [WebView_CoreWebView2InitializationCompleted]: Start.
+2025-09-10 09:32:37.972 [Debug] [1]: [WebView2Mananger] [WebView_CoreWebView2InitializationCompleted]: Done.
+2025-09-10 09:32:37.977 [Debug] [1]: [WebView2Mananger] [WebView_Loaded]: Processing. InitializeWebViewArgs finish.
+2025-09-10 09:32:37.977 [Debug] [1]: [WebView2Mananger] [WebView_Loaded]: Done.
+2025-09-10 09:32:37.981 [Debug] [1]: [WebView2Mananger] [WebView_NavigationStarting]: Received. NavigationId=2, Uri=https://api.horizon.hp.com.cn/oauth/v1/auth?client_id=0e5e39ba-5f04-4be7-87e3-93acca00831b&redirect_uri=http://localhost:3000&state=10763842-9c76-4f7d-84c9-e3af85131464&response_type=code&acr_values=urn:hpbp:hpid_stg&idp_name=wechat.
+2025-09-10 09:32:37.983 [Debug] [34]: [WebviewHtml] [Webview] [handleOnNavigationStarting]: https://api.horizon.hp.com.cn/oauth/v1/auth?client_id=0e5e39ba-5f04-4be7-87e3-93acca00831b&redirect_uri=http://localhost:3000&state=10763842-9c76-4f7d-84c9-e3af85131464&response_type=code&acr_values=urn:hpbp:hpid_stg&idp_name=wechat
+2025-09-10 09:32:38.269 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_WebMessageReceived]: Start. message={"data":{},"type":2,"source":0}
+2025-09-10 09:32:38.269 [Debug] [1]: [MainWebviewWindow] [CoreWebView2_WebMessageReceived]: Done.
+2025-09-10 09:32:39.147 [Debug] [1]: [WebView2Mananger] [WebView_NavigationStarting]: Received. NavigationId=2, Uri=https://directory.stg.cd.id.hp.com/directory/v1/oauth/authorize?acr_values=wechat&client_id=ohoBlNR8LHV8PnK6yA0brkRaudd10bmP&country=CN&locale=zh_CN&prompt=consent&redirect_uri=https%3A%2F%2Fapi.horizon.hp.com.cn%2Foauth%2Fv1%2Fcallback&response_type=code&scope=openid+email+profile+user.profile.read+offline_access&state=09ba0e14-808b-46bf-a6e8-8e90549e426a&target=federation&username_type=mobile.
+2025-09-10 09:32:39.148 [Debug] [34]: [WebviewHtml] [Webview] [handleOnNavigationStarting]: https://directory.stg.cd.id.hp.com/directory/v1/oauth/authorize?acr_values=wechat&client_id=ohoBlNR8LHV8PnK6yA0brkRaudd10bmP&country=CN&locale=zh_CN&prompt=consent&redirect_uri=https%3A%2F%2Fapi.horizon.hp.com.cn%2Foauth%2Fv1%2Fcallback&response_type=code&scope=openid+email+profile+user.profile.read+offline_access&state=09ba0e14-808b-46bf-a6e8-8e90549e426a&target=federation&username_type=mobile
+2025-09-10 09:32:47.542 [Info] [23]: ServerApi - CheckVersion
+2025-09-10 09:33:11.048 [Debug] [32]: GetUserId, token is null or empty
+2025-09-10 09:33:11.049 [Debug] [32]: GetUserId, token is null or empty
+2025-09-10 09:33:13.077 [Error] [32]: GetServiceTimestamp err, 
+2025-09-10 09:33:13.077 [Debug] [32]: XiaoHuiServerTimeTracker GetServerTime err: get service timestamp fail, IsServerTime: False
+2025-09-10 09:33:16.071 [Debug] [1]: [WebView2Mananger] [WebView_NavigationStarting]: Received. NavigationId=2, Uri=https://login3.stg.cd.id.hp.com/login3?flow=https://directory.stg.cd.id.hp.com/directory/v1/authentication/login/AWc7nCRAeesaa3d7C6NSzroEywK1AAAAAAAAAAC9TAdkiFqy4etCiWqiJXCk9X_ppeeBgiu_tZGhEC4OlPlpyYYk4HvllTxMn74pmXOp3SKdcHmRFRuzFW7_lszsXlBA7T0r_RLgDmkeliZSe-R36wCzyJcXqAUnH1-YITVjiQMy8za4B1slX1YtRpWyI9uV-gBeOEShfFNzxK4ovEhF04viVr4rF_Nm92JI1_6C9N0oI5JLdJxv9EhKFAUpsvaoxjbxvm1Jw3ebGUrHUS6wVei3zocgu0gnP0QqiqqlP6wP-BKygUuLCkb-Ay8bVuMUa3Zo42pkFrJDmDAq2slmrwiJ3C9nabjb0nFrzMt9zI8WKiqpwBrLGiWjzYTr-qMUGaqvVWUztTQfthLUw6A1saVcavyypRBydUDlSsbyypJgPeGJefBULM3n2vINlWVQxfgjiRkR8pRqB744jtlV16yFb1gj7fbPmuADXFDfQF0KYtAtKVlhSddRSGwYAUaxtRp751Y85wwAFJw3M4JjnwOm83NovfQaif1oK4K7yVOmm3ufSEu6U1gY-IPxykCUd9g9lmDeNe7ju3XHQEm40svGPhotVAkzuuYuF3XDkJvDzA0lzlrGXKqEmgFwKcvz3eP_gWoXq6Fsnk0QD2UHVgV8KhPiP77pD4LVYqQYiQ2OW0hMsovsq1RSb_23&country=CN&username_type=mobile&locale=zh_CN&target=federation.
+2025-09-10 09:33:16.072 [Debug] [17]: [WebviewHtml] [Webview] [handleOnNavigationStarting]: https://login3.stg.cd.id.hp.com/login3?flow=https://directory.stg.cd.id.hp.com/directory/v1/authentication/login/AWc7nCRAeesaa3d7C6NSzroEywK1AAAAAAAAAAC9TAdkiFqy4etCiWqiJXCk9X_ppeeBgiu_tZGhEC4OlPlpyYYk4HvllTxMn74pmXOp3SKdcHmRFRuzFW7_lszsXlBA7T0r_RLgDmkeliZSe-R36wCzyJcXqAUnH1-YITVjiQMy8za4B1slX1YtRpWyI9uV-gBeOEShfFNzxK4ovEhF04viVr4rF_Nm92JI1_6C9N0oI5JLdJxv9EhKFAUpsvaoxjbxvm1Jw3ebGUrHUS6wVei3zocgu0gnP0QqiqqlP6wP-BKygUuLCkb-Ay8bVuMUa3Zo42pkFrJDmDAq2slmrwiJ3C9nabjb0nFrzMt9zI8WKiqpwBrLGiWjzYTr-qMUGaqvVWUztTQfthLUw6A1saVcavyypRBydUDlSsbyypJgPeGJefBULM3n2vINlWVQxfgjiRkR8pRqB744jtlV16yFb1gj7fbPmuADXFDfQF0KYtAtKVlhSddRSGwYAUaxtRp751Y85wwAFJw3M4JjnwOm83NovfQaif1oK4K7yVOmm3ufSEu6U1gY-IPxykCUd9g9lmDeNe7ju3XHQEm40svGPhotVAkzuuYuF3XDkJvDzA0lzlrGXKqEmgFwKcvz3eP_gWoXq6Fsnk0QD2UHVgV8KhPiP77pD4LVYqQYiQ2OW0hMsovsq1RSb_23&country=CN&username_type=mobile&locale=zh_CN&target=federation
