@@ -153,7 +153,7 @@ int main(int argc, char* argv[]) try {
     if (device == "GPU") {
         // Cache compiled models on disk for GPU to save time on the
         // next run. It's not beneficial for CPU.
-        enable_compile_cache.insert({ov::cache_dir("vlm_cache")});
+        //enable_compile_cache.insert({ov::cache_dir("vlm_cache")});
     }
     ov::genai::VLMPipeline pipe(models_path, device, enable_compile_cache);
 
@@ -257,3 +257,4 @@ int main(int argc, char* argv[]) try {
     }
     return EXIT_FAILURE;
 }
+
