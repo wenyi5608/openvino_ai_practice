@@ -203,6 +203,10 @@ TestMode parse_args(const std::string& mode) {
 }
 
 int main(int argc, char* argv[]) try {
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+    _setmode(_fileno(stdin), _O_WTEXT);
+#endif
 
     GenaiArgs genai_args = parse_args(argc, argv);
 
