@@ -1,3 +1,4 @@
+
 // Copyright (C) 2024 Intel Corporation
 // SPDX-License-Identifier: Apache-2.0
 
@@ -43,6 +44,8 @@ static void DebugMemoryInfo(const char* header) {
 struct GenaiArgs {
     std::string vlm_model_path = "";
     std::string image_path = "";
+    std::string lora_path = "adapter_model.safetensors";
+    float lora_alpha = 0.5;
     std::string device = "GPU";
     std::string test_mode = "memory";
 };
@@ -54,6 +57,8 @@ static void usage(const std::string& prog) {
               << "  -h, --help              show this help message and exit\n"
               << "  -m, --model PATH        vlm model path \n"
               << "  -img, --image PATH      image path \n"
+              << "  -lora_adapter PATH      lora adapter model file (default: adapter_model.safetensors)\n"
+              << "  -lora_alpha N           lora_alpha (default: 0.5)\n"
               << "  -d, --device            Device (default: GPU)\n"
               << "  --test_mode             test mode (default: memory)\n";
 }
@@ -71,6 +76,10 @@ static GenaiArgs parse_args(const std::vector<std::string>& argv) {
             args.vlm_model_path = argv[++i];
         } else if (arg == "-img" || arg == "--image") {
             args.image_path = argv[++i];
+        } else if (arg == "-lora_adapter") {
+            args.lora_path = argv[++i];
+        } else if (arg == "-lora_alpha") {
+            args.lora_alpha = std::stof(argv[++i]);
         } else if (arg == "-d" || arg == "--device") {
             args.device = argv[++i];
         } else if (arg == "--test_mode") {
@@ -116,7 +125,9 @@ ov::genai::StreamingStatus print_subword(std::string&& subword) {
 enum class TestMode {
     invalid = 0,
     performance = 1,
-    memory = 2
+    memory = 2,
+    lora_performance = 3,
+    lora_memory = 4
 };
 
 TestMode parse_args(const std::string& mode) {
@@ -124,6 +135,10 @@ TestMode parse_args(const std::string& mode) {
         return TestMode::performance;
     } else if (mode == "memory") {
         return TestMode::memory;
+    } else if (mode == "lora_performance") {
+        return TestMode::lora_performance;
+    } else if (mode == "lora_memory") {
+        return TestMode::lora_memory;
     } else {
         throw std::runtime_error("Invalid test mode.\n");
     }
@@ -133,11 +148,16 @@ TestMode parse_args(const std::string& mode) {
 namespace fs = std::filesystem;
 
 int main(int argc, char* argv[]) try {
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+    _setmode(_fileno(stdin), _O_WTEXT);
+#endif
 
     GenaiArgs genai_args = parse_args(argc, argv);
 
     std::filesystem::path models_path = genai_args.vlm_model_path;
     std::filesystem::path image_path = genai_args.image_path;
+    std::filesystem::path adapter_path = genai_args.lora_path;
 
     if (image_path.empty() || !fs::exists(image_path)) {
         throw std::runtime_error{"Path to images is empty or does not exist."};
@@ -149,20 +169,35 @@ int main(int argc, char* argv[]) try {
     std::cout << ov::get_openvino_version() << std::endl;
 
     std::string device = genai_args.device;
-    ov::AnyMap enable_compile_cache;
-    if (device == "GPU") {
-        // Cache compiled models on disk for GPU to save time on the
-        // next run. It's not beneficial for CPU.
-        enable_compile_cache.insert({ov::cache_dir("vlm_cache")});
+
+    ov::genai::Adapter adapter;
+    if (!(test_mode == TestMode::memory) && !(test_mode == TestMode::performance)) {
+        adapter = ov::genai::Adapter(adapter_path);
     }
-    ov::genai::VLMPipeline pipe(models_path, device, enable_compile_cache);
+
+    ov::AnyMap mp;
+    if (test_mode == TestMode::memory || test_mode == TestMode::performance) {
+        mp = {{"ATTENTION_BACKEND", "PA"},
+              ov::device::properties(device, ov::cache_dir(std::format("{}_cache", device)))};
+
+    } else {
+        mp = {{"ATTENTION_BACKEND", "PA"},
+              ov::device::properties(device, ov::cache_dir(std::format("{}_cache", device))),
+              ov::genai::adapters(adapter)};
+    }
+
+    ov::genai::VLMPipeline pipe(models_path, device, mp);
 
     ov::genai::GenerationConfig generation_config;
 
-    if (test_mode == TestMode::memory) {
+    if (test_mode == TestMode::memory || test_mode == TestMode::lora_memory) {
         generation_config.max_new_tokens = 1;  // streamer may inpact the performance test, only infer first token for the memory test
     } else {
         generation_config.max_new_tokens = 200;  // perfromance test
+    }
+
+    if (test_mode == TestMode::lora_memory || test_mode == TestMode::lora_performance) {
+        generation_config.adapters = ov::genai::AdapterConfig{adapter, genai_args.lora_alpha};
     }
 
     auto streamer = [](std::string subword) {
@@ -185,7 +220,7 @@ int main(int argc, char* argv[]) try {
         for (const fs::path& dir_entry : sorted_images) {
             std::vector<ov::Tensor> rgbs = {utils::load_image(dir_entry)};
 
-           if (test_mode == TestMode::memory ) {
+           if (test_mode == TestMode::memory || test_mode == TestMode::lora_memory ) {
                 vlm_res = pipe.generate(prompt,
                                         ov::genai::images(rgbs),
                                         ov::genai::generation_config(generation_config),
@@ -237,7 +272,7 @@ int main(int argc, char* argv[]) try {
 
     }
 
-    if (test_mode == TestMode::performance) {
+    if (test_mode == TestMode::performance || test_mode == TestMode::lora_performance) {
         std::cout << "input id, input token len, out token len, first token time, average time" << std::endl;
         size_t index = 0;
         for (auto i : perf_records) {
@@ -245,8 +280,7 @@ int main(int argc, char* argv[]) try {
                       << std::get<3>(i) << std::endl;
             index++;
         }
-    }
-    
+    }    
 } catch (const std::exception& error) {
     try {
         std::cerr << error.what() << '\n';
@@ -260,6 +294,4 @@ int main(int argc, char* argv[]) try {
     }
     return EXIT_FAILURE;
 }
-
-
 
