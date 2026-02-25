@@ -19,4 +19,7 @@ mkdir build
 cmake -S . -B build && cmake --build build --config Release
 .\build\Release\genai_llm.exe -m \\path\\to\\Qwen3-VL-4B -img \\path\\to\\image -d GPU  --test_mode memory
 .\build\Release\genai_vlm.exe -m \\path\\to\\Qwen3-VL-4B -img \\path\\to\\image -d GPU  --test_mode performance
+.\build\Release\genai_vlm.exe -m \\path\\to\\Qwen3-VL-4B -img \\path\\to\\image -lora_adapter \\path\\to\\adapter_model.safetensors -d GPU --test_mode lora_memory
+.\build\Release\genai_vlm.exe -m \\path\\to\\Qwen3-VL-4B -img \\path\\to\\image -lora_adapter \\path\\to\\adapter_model.safetensors -d GPU --test_mode lora_performance
+
 ```
