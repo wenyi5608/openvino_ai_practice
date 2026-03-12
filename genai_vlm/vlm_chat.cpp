@@ -4,7 +4,7 @@
 
 #include <filesystem>
 #include <openvino/genai/visual_language/pipeline.hpp>
-
+#include "openvino/genai/text_streamer.hpp"
 #include "load_image.hpp"
 
 #ifdef _WIN32
@@ -207,6 +207,17 @@ int main(int argc, char* argv[]) try {
         return ov::genai::StreamingStatus::STOP;
     };
 
+    auto callback = [](std::string word) {
+        std::cout << word << std::flush;
+        return ov::genai::StreamingStatus::RUNNING;
+    };
+
+    ov::AnyMap detokenization_params;
+    detokenization_params["skip_special_tokens"] = false;
+
+    std::shared_ptr<ov::genai::TextStreamer> skip_streamer =
+        std::make_shared<ov::genai::TextStreamer>(pipe.get_tokenizer(), callback, detokenization_params);
+
     // input length, output length, first time, other time
     std::vector<std::tuple<size_t, size_t, float, float>> perf_records;
 
@@ -226,16 +237,15 @@ int main(int argc, char* argv[]) try {
                                         ov::genai::generation_config(generation_config),
                                         ov::genai::streamer(streamer));
            } else {
-               vlm_res = pipe.generate(prompt, ov::genai::images(rgbs), ov::genai::generation_config(generation_config));
+               vlm_res = pipe.generate(prompt,
+                                       ov::genai::images(rgbs),
+                                       ov::genai::generation_config(generation_config),
+                                       ov::genai::streamer(skip_streamer));
            }
             
             ov::genai::PerfMetrics metrics = vlm_res.perf_metrics;
             size_t input_tokens_len = metrics.get_num_input_tokens();
             size_t num_generated_tokens = metrics.get_num_generated_tokens();
-
-            std::string output = vlm_res.texts[0];
-            std::cout << "------------------output-----------------" << std::endl;
-            std::cout << output << std::endl;
 
             if (!img_idx) {
                 std::cout << "Compile LLM model took " << metrics.get_load_time() << " ms" << std::endl;
@@ -252,16 +262,14 @@ int main(int argc, char* argv[]) try {
     } else {
         std::vector<ov::Tensor> rgbs = {utils::load_image(image_path)};
 
-        vlm_res = pipe.generate(prompt, ov::genai::images(rgbs), ov::genai::generation_config(generation_config)); //,
-                                //ov::genai::streamer(print_subword));
+        vlm_res = pipe.generate(prompt,
+                                ov::genai::images(rgbs),
+                                ov::genai::generation_config(generation_config),
+                                ov::genai::streamer(skip_streamer));
 
         ov::genai::PerfMetrics metrics = vlm_res.perf_metrics;
         size_t input_tokens_len = metrics.get_num_input_tokens();
         size_t num_generated_tokens = metrics.get_num_generated_tokens();
-
-        std::string output = vlm_res.texts[0];
-        std::cout << "------------------output-----------------" << std::endl;
-        std::cout << output << std::endl;
 
         std::cout << "Compile VLM model took " << metrics.get_load_time() << " ms" << std::endl;
 
