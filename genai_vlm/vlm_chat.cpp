@@ -222,6 +222,7 @@ int main(int argc, char* argv[]) try {
     std::vector<std::tuple<size_t, size_t, float, float>> perf_records;
 
     std::string prompt = "Describe this image.";
+    prompt = "Analysis layout of this image.";
     ov::genai::VLMDecodedResults vlm_res;
 
     size_t img_idx = 0;
@@ -229,6 +230,7 @@ int main(int argc, char* argv[]) try {
     if (fs::is_directory(image_path)) {
         std::set<fs::path> sorted_images{fs::directory_iterator(image_path), fs::directory_iterator()};
         for (const fs::path& dir_entry : sorted_images) {
+            std::cout << std::endl << "Image name " << dir_entry << std::endl;
             std::vector<ov::Tensor> rgbs = {utils::load_image(dir_entry)};
 
            if (test_mode == TestMode::memory || test_mode == TestMode::lora_memory ) {
