@@ -193,7 +193,7 @@ int main(int argc, char* argv[]) try {
     if (test_mode == TestMode::memory || test_mode == TestMode::lora_memory) {
         generation_config.max_new_tokens = 1;  // streamer may inpact the performance test, only infer first token for the memory test
     } else {
-        generation_config.max_new_tokens = 200;  // perfromance test
+        generation_config.max_new_tokens = 1200;  // perfromance test
     }
 
     if (test_mode == TestMode::lora_memory || test_mode == TestMode::lora_performance) {
