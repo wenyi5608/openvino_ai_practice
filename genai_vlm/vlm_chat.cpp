@@ -264,10 +264,17 @@ int main(int argc, char* argv[]) try {
     } else {
         std::vector<ov::Tensor> rgbs = {utils::load_image(image_path)};
 
-        vlm_res = pipe.generate(prompt,
-                                ov::genai::images(rgbs),
-                                ov::genai::generation_config(generation_config),
-                                ov::genai::streamer(skip_streamer));
+        if (test_mode == TestMode::memory || test_mode == TestMode::lora_memory) {
+            vlm_res = pipe.generate(prompt,
+                                    ov::genai::images(rgbs),
+                                    ov::genai::generation_config(generation_config),
+                                    ov::genai::streamer(skip_streamer_mem));
+        } else {
+            vlm_res = pipe.generate(prompt,
+                                    ov::genai::images(rgbs),
+                                    ov::genai::generation_config(generation_config),
+                                    ov::genai::streamer(skip_streamer));
+        }
 
         ov::genai::PerfMetrics metrics = vlm_res.perf_metrics;
         size_t input_tokens_len = metrics.get_num_input_tokens();
